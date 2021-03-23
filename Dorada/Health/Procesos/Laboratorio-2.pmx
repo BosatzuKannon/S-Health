@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.3.3-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1604973185</meta>
+    <meta key="export_datetime"><![CDATA[2020-11-10T01:53:05+00:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[134.122.7.59:80]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">50640</meta>
+    <meta key="workspace">dorada</meta>
+    <meta key="name">Laboratorio</meta>
+    <meta key="uid">7447018655e6a7c1b82e2c5026533033</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>5565173765e6a7c1bde12b2000792099</act_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <pro_uid>2315294255e6a7c1bb95a11051604895</pro_uid>
+        <act_name>Toma de Muestras</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>5035835705e6a7c1bdec311069953740</bou_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <element_uid>5565173765e6a7c1bde12b2000792099</element_uid>
+        <bou_element>1308760655f0cc2fa006ad0012492981</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>239</bou_x>
+        <bou_y>98</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <act_uid>2172633765f0cc322cb4265075112390</act_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <pro_uid>2315294255e6a7c1bb95a11051604895</pro_uid>
+        <act_name>Carga de Resultados</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>1</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>7680401375f0cc322cb9f92001269445</bou_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <element_uid>2172633765f0cc322cb4265075112390</element_uid>
+        <bou_element>1308760655f0cc2fa006ad0012492981</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>258</bou_x>
+        <bou_y>269</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>2344050905f0cc322dcd6f3075300241</bou_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <element_uid>6245950845f0cc322dc9e88082422397</element_uid>
+        <bou_element>1308760655f0cc2fa006ad0012492981</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>474</bou_x>
+        <bou_y>288</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>2578727135e6a7c1c0a9189051472756</bou_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <element_uid>3651135715e6a7c1c0a1e55053047320</element_uid>
+        <bou_element>1308760655f0cc2fa006ad0012492981</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>474</bou_x>
+        <bou_y>124</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>4972531395e6a7c1c1b67e2015778771</bou_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <element_uid>3060064465e6a7c1c1af817040668232</element_uid>
+        <bou_element>1308760655f0cc2fa006ad0012492981</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>100</bou_x>
+        <bou_y>100</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>5035835705e6a7c1bdec311069953740</bou_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <element_uid>5565173765e6a7c1bde12b2000792099</element_uid>
+        <bou_element>1308760655f0cc2fa006ad0012492981</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>239</bou_x>
+        <bou_y>98</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>7680401375f0cc322cb9f92001269445</bou_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <element_uid>2172633765f0cc322cb4265075112390</element_uid>
+        <bou_element>1308760655f0cc2fa006ad0012492981</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>258</bou_x>
+        <bou_y>269</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>9182247455f0cc322da7518063724253</bou_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <element_uid>7569869035f0cc322da2ae5092908753</element_uid>
+        <bou_element>1308760655f0cc2fa006ad0012492981</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>118</bou_x>
+        <bou_y>297</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <dia_name>Laboratorio</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>6245950845f0cc322dc9e88082422397</evn_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <pro_uid>2315294255e6a7c1bb95a11051604895</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>2344050905f0cc322dcd6f3075300241</bou_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <element_uid>6245950845f0cc322dc9e88082422397</element_uid>
+        <bou_element>1308760655f0cc2fa006ad0012492981</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>474</bou_x>
+        <bou_y>288</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>3651135715e6a7c1c0a1e55053047320</evn_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <pro_uid>2315294255e6a7c1bb95a11051604895</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>2578727135e6a7c1c0a9189051472756</bou_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <element_uid>3651135715e6a7c1c0a1e55053047320</element_uid>
+        <bou_element>1308760655f0cc2fa006ad0012492981</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>474</bou_x>
+        <bou_y>124</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>3060064465e6a7c1c1af817040668232</evn_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <pro_uid>2315294255e6a7c1bb95a11051604895</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>4972531395e6a7c1c1b67e2015778771</bou_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <element_uid>3060064465e6a7c1c1af817040668232</element_uid>
+        <bou_element>1308760655f0cc2fa006ad0012492981</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>100</bou_x>
+        <bou_y>100</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>7569869035f0cc322da2ae5092908753</evn_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <pro_uid>2315294255e6a7c1bb95a11051604895</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>9182247455f0cc322da7518063724253</bou_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <element_uid>7569869035f0cc322da2ae5092908753</element_uid>
+        <bou_element>1308760655f0cc2fa006ad0012492981</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>118</bou_x>
+        <bou_y>297</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>3920578045eb4830c68ebb1081293053</flo_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>5565173765e6a7c1bde12b2000792099</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>3651135715e6a7c1c0a1e55053047320</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>390</flo_x1>
+        <flo_y1>136</flo_y1>
+        <flo_x2>474</flo_x2>
+        <flo_y2>141</flo_y2>
+        <flo_state><![CDATA[[{"x":390,"y":136},{"x":432,"y":136},{"x":432,"y":141},{"x":474,"y":141}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>4880593035f0cc322e00de0018615685</flo_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>7569869035f0cc322da2ae5092908753</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>2172633765f0cc322cb4265075112390</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>151</flo_x1>
+        <flo_y1>314</flo_y1>
+        <flo_x2>258</flo_x2>
+        <flo_y2>307</flo_y2>
+        <flo_state><![CDATA[[{"x":151,"y":314},{"x":204,"y":314},{"x":204,"y":307},{"x":258,"y":307}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>5893337945eb4830c68ee02082876906</flo_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>3060064465e6a7c1c1af817040668232</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>5565173765e6a7c1bde12b2000792099</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>133</flo_x1>
+        <flo_y1>117</flo_y1>
+        <flo_x2>239</flo_x2>
+        <flo_y2>136</flo_y2>
+        <flo_state><![CDATA[[{"x":133,"y":117},{"x":186,"y":117},{"x":186,"y":136},{"x":239,"y":136}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>6177121145f0cc322e01c04086167181</flo_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>2172633765f0cc322cb4265075112390</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>6245950845f0cc322dc9e88082422397</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>409</flo_x1>
+        <flo_y1>307</flo_y1>
+        <flo_x2>474</flo_x2>
+        <flo_y2>305</flo_y2>
+        <flo_state><![CDATA[[{"x":409,"y":307},{"x":441,"y":307},{"x":441,"y":305},{"x":474,"y":305}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY"/>
+    <table name="LANE"/>
+    <table name="LANESET"/>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>2315294255e6a7c1bb95a11051604895</pro_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <dia_uid>1134701625e6a7c1ba83739013921642</dia_uid>
+        <pro_name>Laboratorio</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <prj_name>Laboratorio</prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2020-03-05 01:55:10]]></prj_create_date>
+        <prj_update_date><![CDATA[2020-07-13 20:25:27]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <pro_title>Laboratorio</pro_title>
+        <pro_description></pro_description>
+        <pro_parent>6587993805e605bfea31f29073457090</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category>7234013095eb9672f307462040831329</pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2020-07-13 20:25:27]]></pro_update_date>
+        <pro_create_date><![CDATA[2020-05-07 21:52:12]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>1</pro_debug>
+        <pro_dynaforms><![CDATA[a:1:{s:7:"PROCESS";s:0:"";}]]></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost><![CDATA[$]]></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label>Health</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <tas_uid>2172633765f0cc322cb4265075112390</tas_uid>
+        <tas_title>Carga de Resultados</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>0</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>258</tas_posx>
+        <tas_posy>269</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <tas_uid>5565173765e6a7c1bde12b2000792099</tas_uid>
+        <tas_title>Toma de Muestras</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>2358713765ebdf09bbc6e58091476634</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>239</tas_posx>
+        <tas_posy>98</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>2991951795f0cc3373dac19031475208</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <tas_uid>2172633765f0cc322cb4265075112390</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>8441459765f0cc3373ca435065749263</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <tas_uid>5565173765e6a7c1bde12b2000792099</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs">
+      <record>
+        <out_doc_uid>2156606705eaa23cd72eda2089972263</out_doc_uid>
+        <out_doc_title>FORMULA_LABORATORIO</out_doc_title>
+        <out_doc_description></out_doc_description>
+        <out_doc_filename><![CDATA[FORMULA_LABORATORIO_@#suggestVar1001]]></out_doc_filename>
+        <out_doc_template><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Orden de Prestamo de Inventario</title>
+  <style>
+    html {
+      margin-left: 3px;
+      margin-top: 3px;
+     border: 3px solid #FFFFFF;!important
+     min-height: 120%;
+     width: 634px; 
+     height:812px
+    }
+
+    body {
+     border: 3px solid #FFFFFF;!important
+     min-height: 100%;
+     width: 612px; 
+     height:792px
+    }
+
+  </style>
+</head>
+<body>
+<table style="width: 379px; height: 168px;">
+<tbody><!--<tr>
+<td align="right" colspan="2"><font size="0">impreso @#FECHA_ACTUAL</font></td>
+</tr>-->
+<tr>
+<td align="center" style="width: 20%;"><img align="left" src="http://134.122.7.59/images/dorada_template.png" alt="Logo_Amecon" title="Logo_Amecon" width="90" height="60" /></td>
+<td align="center" style="width: 60%;">
+<table>
+<tbody>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td align="center"><font size="2"><span><strong>IPS LA DORADA&nbsp;</strong></span></font></td>
+</tr>
+<tr>
+<td align="center"><font size="2">NIT. 901372032-1</font></td>
+</tr>
+<tr>
+<td align="center"><font size="1">DIRECCION: BARRIO LOS PRADOS CALLE 6 CASA 30&nbsp; &nbsp; &nbsp;TELEFONO: 310 2714354</font></td>
+</tr>
+<tr>
+<td align="center"><font size="1">MUNICIPIO: LA DORADA&nbsp; - SAN MIGUEL&nbsp; &nbsp; &nbsp;DEPARTAMENTO: PUTUMAYO</font>
+<table cellspacing="0" border="0" style="width: 296px; height: 32px;">
+<tbody>
+<tr>
+<td align="center" colspan="2"><font size="2" face="andale mono,times"><strong>ORDEN DE LABORATORIOS</strong></font></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<table style="border-spacing: 0px; height: 168px; width: 379px;" cellspacing="0" border="1">
+<tbody>
+<tr>
+<td align="center" colspan="2"><font size="2" face="andale mono,times"><strong>INFORMACI&Oacute;N DEL PACIENTE</strong></font></td>
+</tr>
+<tr>
+<td width="50%"><span>Paciente: @#textVar1002</span></td>
+<td><font face="andale mono,times"><span>Fecha de Nacimiento : @#textVar1010&nbsp; &nbsp;Edad: @#textVar1003</span></font></td>
+</tr>
+<tr>
+<td><span>Identificaci&oacute;n: @#suggestVar1001</span></td>
+<td><span>G&eacute;nero: @#textVar1011</span></td>
+</tr>
+<tr>
+<td><span>Direcci&oacute;n: @#textVar1004</span></td>
+<td><span>EPS: @#textVar1009&nbsp;&nbsp;<span>Regimen:@#textVar1012</span></span></td>
+</tr>
+<tr>
+<td><span>Tel&eacute;fono: @#textVar1006</span></td>
+<td><span>Celular: @#textVar1005</span></td>
+</tr>
+<tr>
+<td><span>Correo Electr&oacute;nico: @#textVar1007</span></td>
+<td><span>Ocupaci&oacute;n: @#textVar1008</span></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<table border="1" style="border-spacing: 0px; height: 168px; width: 379px;">
+<tbody>
+<tr>
+<td align="center"><font size="1"><b>MUESTRAS A TOMAR</b></font></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<table style="border-spacing: 0px; height: 168px; width: 379px;" border="1">
+<tbody>
+<tr><th><font size="1">Codigo</font></th><th><font size="1">Despcricion</font></th></tr>
+<!--@>gridVar004-->
+<tr>
+<td>@#cod_laboratorio</td>
+<td>@#descripcion</td>
+</tr>
+<!--@<gridVar004--></tbody>
+</table>
+<p></p>
+<table border="1" style="border-spacing: 0px; height: 168px; width: 379px;">
+<tbody>
+<tr>
+<td align="center"><font size="1"><b>OBSERVACIONES</b></font></td>
+</tr>
+<tr>
+<td><font size="1">@#OBSERVACIONES</font></td>
+</tr>
+</tbody>
+</table>
+<p><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></p>
+<table border="1" style="border-spacing: 0px; height: 47px; width: 379px;">
+<tbody>
+<tr>
+<td>
+<p>@#profesional</p>
+</td>
+<td>@#firma_medico</td>
+<td>@#sello_medico</td>
+</tr>
+<tr>
+<td>
+<p><font size="1"><b>&nbsp;NOMBRE MEDICO</b></font></p>
+</td>
+<td><font size="1"><b>FIRMA MEDICO</b></font></td>
+<td><font size="1"><b>SELLO MEDICO<b><br /></b></b></font></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><b>&nbsp;</b></p>
+<p></p>
+<p></p>
+<p><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</b></p>
+<p><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></p>
+<p></p>
+<p><span style="font-size: x-small; text-align: -webkit-right;">&nbsp;</span></p>
+</body>
+</html>]]></out_doc_template>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <out_doc_report_generator>TCPDF</out_doc_report_generator>
+        <out_doc_landscape>0</out_doc_landscape>
+        <out_doc_media>Letter</out_doc_media>
+        <out_doc_left_margin>20</out_doc_left_margin>
+        <out_doc_right_margin>20</out_doc_right_margin>
+        <out_doc_top_margin>10</out_doc_top_margin>
+        <out_doc_bottom_margin>20</out_doc_bottom_margin>
+        <out_doc_generate>BOTH</out_doc_generate>
+        <out_doc_type>HTML</out_doc_type>
+        <out_doc_current_revision>0</out_doc_current_revision>
+        <out_doc_field_mapping></out_doc_field_mapping>
+        <out_doc_versioning>1</out_doc_versioning>
+        <out_doc_destination_path></out_doc_destination_path>
+        <out_doc_tags></out_doc_tags>
+        <out_doc_pdf_security_enabled>0</out_doc_pdf_security_enabled>
+        <out_doc_pdf_security_open_password></out_doc_pdf_security_open_password>
+        <out_doc_pdf_security_owner_password></out_doc_pdf_security_owner_password>
+        <out_doc_pdf_security_permissions></out_doc_pdf_security_permissions>
+        <out_doc_open_type>1</out_doc_open_type>
+      </record>
+    </table>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>1359360665ea759ed77f6a3060283197</dyn_uid>
+        <dyn_title>FRM_REVIVSION_LABORATORIO</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[7447018655e6a7c1b82e2c5026533033/1359360665ea759ed77f6a3060283197]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"FRM_REVIVSION_LABORATORIO","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"1359360665ea759ed77f6a3060283197","name":"FRM_REVIVSION_LABORATORIO","description":"","mode":"edit","script":{"type":"js","code":"inicio_revision_laboratorio();\n\nfunction inicio_revision_laboratorio(){    \n  \n  $(\"#button0000000001\").hide();\n  $(\"#gridVar003\").hide();\n  //$(\"#dialogPanel1\").hide();\n  $(\"#suggestVar1001\").setOnchange(fr_1);  \n}\n\nfunction fr_1(){\n\n  if($(\"#suggestVar1001\").getValue() == \"\") {\n\n      $(\"#button0000000001\").hide();      \n    }\n    else{\n\n      $(\"#button0000000001\").show();\n    }\n}\n\n$(\"#button0000000001\").find(\"button\").on(\"click\" , function(){\n\n  if($(\"#suggestVar1001\").getValue() == ''){    \n    return false;\n  }  \n    \n  var q = $(\"#suggestVar1001\").getValue();  \n  var rows;    \n    \n  if (window.XMLHttpRequest) // code for IE7+, Firefox, Chrome, Opera, Safari\n      xmlhttp=new XMLHttpRequest();\n  else // code for IE5, IE6\n      xmlhttp=new ActiveXObject(\"Microsoft.XMLHTTP\");\n \n  xmlhttp.onreadystatechange=function(){\n      if(xmlhttp.readyState==4 && xmlhttp.status==200){        \n       \n        var rows = eval('(' + xmlhttp.responseText + ')');\n        \n        if(rows.length == 0){\n         \n          showConfirmDlg();\n          return false;\n        }\n        else{\n        \n          $(\"#gridVar003\").show();\n          console.log(\"\"+rows);\n          for (var i = 0; i < rows.length; i++){\n\n            if(i == 0){\n              //$(\"#gridVar003\").addRow();\n              $(\"#gridVar003\").setText(rows[i].fecha,1, 1);\n              $(\"#gridVar003\").setText(rows[i].medico,1, 2);\n              $(\"#gridVar003\").setText(rows[i].caso,1, 4);\n              $(\"#gridVar003\").setText(rows[i].observacion,1, 5);\n            }\n            else{\n              var aData = [\n                  {value: rows[i].fecha},\n                  {value: rows[i].medico},\n                  {value: \"\"},\n                  {value: rows[i].caso},\n                  {value: rows[i].observacion}\n              ];\n              $(\"#gridVar003\").addRow(aData);\n            }            \n          }\n        }\n      }\n   }\n   xmlhttp.open(\"GET\", \"/hlt_buscar_formulas_lab.php?q=\"+q, true);\n   xmlhttp.send();\n});\n/*\nfunction showConfirmDlg(){\n    var dlgContents = {\n        modal:     true,\n        resizable: false,\n        buttons: {\n            \"Continuar\": function() {\n                $(this).dialog(\"close\");\n                return false;\n            }\n        }\n    }\n    $(\"#newClientDialog\").dialog(dlgContents);\n}*/\n"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"form","variable":"","var_uid":"","dataType":"","id":"5023743595e6a7c1c760b49015916006","name":"IINFORMACION PACIENTE","description":"","mode":"edit","script":{"type":"js","code":"$(\"#button1001\").find(\"button\").on(\"click\" , function(){\n\t\n\twindow.open(\"http://orangecol.tk/sysamericana/es-ES/neoclassic/3196788185e5db675cac2c1081861327/2237636135d44bad1895dc1092946238.php\", \"\", \"width=1200,height=600\");\t\n});"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"subtitle","id":"subtitle1001","label":"INFORMACIÓN DEL PACIENTE","colSpan":12}],[{"type":"suggest","variable":"suggestVar1001","var_uid":"3450945595e6a7c1c781e25038568422","dataType":"string","protectedValue":false,"id":"suggestVar1001","name":"suggestVar1001","label":"Documento","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select no_historia, concat(no_historia,' - ',apel_1,' ',apel_2,' ',nom_1,' ',nom_2) as ced from hlt_pacientes","dataVariable":"","options":[],"delay":0,"var_name":"suggestVar1001","colSpan":4},{"type":"text","variable":"textVar1002","var_uid":"4585647215e6a7c1c785c89007916285","dataType":"string","protectedValue":false,"id":"textVar1002","name":"textVar1002","label":"Nombre","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select concat(apel_1,' ',apel_2,' ',nom_1,' ',nom_2) from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1002","colSpan":4},{"type":"text","variable":"textVar1020","var_uid":"8937701065e6a7c1c771411062159971","dataType":"string","protectedValue":false,"id":"textVar1020","name":"textVar1020","label":"RH","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select RH from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1020","colSpan":4}],[{"type":"text","variable":"textVar1010","var_uid":"3449845115e6a7c1c78dc45053957594","dataType":"string","protectedValue":false,"id":"textVar1010","name":"textVar1010","label":"Fecha de Nacimiento","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select fecha_nac from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1010","colSpan":4},{"type":"text","variable":"textVar1003","var_uid":"3050005125e6a7c1c78c413072515223","dataType":"string","protectedValue":false,"id":"textVar1003","name":"textVar1003","label":"Edad","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"SELECT Concat(date_part('year',age( fecha_nac )),' Años ',date_part('month',age( fecha_nac )) ,' Meses ',date_part('day',age( fecha_nac )) ,' Días') from hlt_pacientes where no_historia='@#suggestVar1001'","var_name":"textVar1003","colSpan":4},{"type":"text","variable":"textVar1011","var_uid":"2934695335e6a7c1c7787f2005073687","dataType":"string","protectedValue":false,"id":"textVar1011","name":"textVar1011","label":"Género","defaultValue":"Masculino","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select descripcion from hlt_pacientes a left join hlt_sexo b on a.cod_sexo=b.cod_sexo where a.no_historia = '@#suggestVar1001'","var_name":"textVar1011","colSpan":4}],[{"type":"text","variable":"textVar1004","var_uid":"7267744615e6a7c1c787958026871513","dataType":"string","protectedValue":false,"id":"textVar1004","name":"textVar1004","label":"Dirección","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select concat(direccion,' B./ ',barrio) from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1004","colSpan":4},{"type":"text","variable":"textVar1005","var_uid":"7154882725e6a7c1c77e2c5054409668","dataType":"string","protectedValue":false,"id":"textVar1005","name":"textVar1005","label":"Teléfono","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select telefono from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1005","colSpan":4},{"type":"text","variable":"textVar1006","var_uid":"2906398865e6a7c1c780302014408885","dataType":"string","protectedValue":false,"id":"textVar1006","name":"textVar1006","label":"Celular","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select celular from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1006","colSpan":4}],[{"type":"text","variable":"textVar1007","var_uid":"2303580325e6a7c1c789363003158970","dataType":"string","protectedValue":false,"id":"textVar1007","name":"textVar1007","label":"E-Mail","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select email from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1007","colSpan":4},{"type":"text","variable":"textVar1008","var_uid":"2139422715e6a7c1c77c9f5007840488","dataType":"string","protectedValue":false,"id":"textVar1008","name":"textVar1008","label":"Ocupación","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select descripcion from hlt_pacientes a left join hlt_ciuo b on a.cod_ciuo=b.cod_ciuo where a.no_historia='@#suggestVar1001'","var_name":"textVar1008","colSpan":4},{"type":"text","variable":"textVar1009","var_uid":"3801956695e6a7c1c78ac82023188100","dataType":"string","protectedValue":false,"id":"textVar1009","name":"textVar1009","label":"EPS","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.nombre from hlt_pacientes a left join hlt_empresa b on a.cod_empresa=b.cod_empresa where a.no_historia = '@#suggestVar1001'","var_name":"textVar1009","colSpan":4}],[{"type":"text","variable":"textVar1013","var_uid":"4709173585e6a7c1c7735d6081374902","dataType":"string","protectedValue":false,"id":"textVar1013","name":"textVar1013","label":"Estado Civil","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_estado_civil b on a.cod_estado_civil=b.cod_estado_civil where a.no_historia = '@#suggestVar1001'","var_name":"textVar1013","colSpan":4},{"type":"text","variable":"textVar1014","var_uid":"8707236185e6a7c1c77ad04056436023","dataType":"string","protectedValue":false,"id":"textVar1014","name":"textVar1014","label":"Estrato","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_estrato b on a.cod_estrato=b.cod_estrato where a.no_historia = '@#suggestVar1001'","var_name":"textVar1014","colSpan":4},{"type":"text","variable":"textVar1015","var_uid":"8343380725e6a7c1c76e795059145597","dataType":"string","protectedValue":false,"id":"textVar1015","name":"textVar1015","label":"Etnia","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_etnia b on a.cod_etnia=b.cod_etnia where a.no_historia = '@#suggestVar1001'","var_name":"textVar1015","colSpan":4}],[{"type":"text","variable":"textVar1016","var_uid":"4952450365e6a7c1c783d66056489210","dataType":"string","protectedValue":false,"id":"textVar1016","name":"textVar1016","label":"Nivel de Estudios","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_escolaridad b on a.cod_escolaridad=b.cod_escolaridad where a.no_historia = '@#suggestVar1001'","var_name":"textVar1016","colSpan":4},{"type":"text","variable":"textVar1017","var_uid":"4876803035e6a7c1c775fc3099896564","dataType":"string","protectedValue":false,"id":"textVar1017","name":"textVar1017","label":"Discapacidad","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_discapacidad b on a.cod_discapacidad=b.cod_discapacidad where a.no_historia = '@#suggestVar1001'","var_name":"textVar1017","colSpan":4},{"type":"text","variable":"textVar1012","var_uid":"4185186275e6a7c1c769bf4076361698","dataType":"string","protectedValue":false,"id":"textVar1012","name":"textVar1012","label":"Afiliación","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"SELECT CASE WHEN afiliacion= '0' THEN 'Afiliado' ELSE 'Subsidiado' END from hlt_pacientes where no_historia = '@#suggestVar1001'\n\n","var_name":"textVar1012","colSpan":4}]],"variables":[{"var_uid":"3450945595e6a7c1c781e25038568422","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"suggestVar1001","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4080777495e5db67d2561b7009344399","var_name_old":"suggestVar1001","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4585647215e6a7c1c785c89007916285","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1002","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7567301165e5db67d1d8490065709560","var_name_old":"textVar1002","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8937701065e6a7c1c771411062159971","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1020","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2066662545e5db67ce86514020504025","var_name_old":"textVar1020","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"3449845115e6a7c1c78dc45053957594","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1010","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1600462685e5db67ce0c5f7002130665","var_name_old":"textVar1010","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"3050005125e6a7c1c78c413072515223","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1003","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1406136365e5db67d0928c9093712481","var_name_old":"textVar1003","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2934695335e6a7c1c7787f2005073687","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1011","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"3597483075e5db67ceb76f6038248744","var_name_old":"textVar1011","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"7267744615e6a7c1c787958026871513","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1004","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2594583565e5db67d06aa98059604395","var_name_old":"textVar1004","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"7154882725e6a7c1c77e2c5054409668","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1005","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"5238994965e5db67cc66f11092649620","var_name_old":"textVar1005","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2906398865e6a7c1c780302014408885","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1006","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6026650695e5db67cc761c5056911869","var_name_old":"textVar1006","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2303580325e6a7c1c789363003158970","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1007","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8341092315e5db67d2da7b5068744040","var_name_old":"textVar1007","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2139422715e6a7c1c77c9f5007840488","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1008","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7107641625e5db67d268942049621086","var_name_old":"textVar1008","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"3801956695e6a7c1c78ac82023188100","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1009","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6561402985e5db67d2e15e3007913254","var_name_old":"textVar1009","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4709173585e6a7c1c7735d6081374902","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1013","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"9459326265e5db67cda9b61058871767","var_name_old":"textVar1013","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8707236185e6a7c1c77ad04056436023","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1014","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8653423815e5db67d100327082135240","var_name_old":"textVar1014","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8343380725e6a7c1c76e795059145597","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1015","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8110358755e5db67d1f7865011244194","var_name_old":"textVar1015","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4952450365e6a7c1c783d66056489210","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1016","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8005765635e5db67d02c851015801988","var_name_old":"textVar1016","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4876803035e6a7c1c775fc3099896564","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1017","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2680535475e5db67d114986038052103","var_name_old":"textVar1017","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4185186275e6a7c1c769bf4076361698","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1012","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1348978205e5db67d130fe4028119224","var_name_old":"textVar1012","prj_uid_old":"3196788185e5db675cac2c1081861327"}],"colSpan":12}],[{"colSpan":4},{"type":"button","id":"button0000000001","name":"button0000000001","label":"Buscar Formulas  Laboratorios","colSpan":4},{"colSpan":4}],[{"type":"grid","variable":"gridVar003","var_uid":"2436824795ea75a85d46015083556153","dataType":"grid","protectedValue":false,"id":"gridVar003","name":"gridVar003","label":"FORMULAS LABORATORIOS PENDIENTES","hint":"","required":false,"requiredFieldErrorMessage":"","columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"text0000001021","name":"text0000001021","label":"Fecha","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"15","width":100,"title":"Fecha","var_name":"gridVar003"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"text0000001022","name":"text0000001022","label":"Medico","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"30","width":100,"title":"Medico"},{"type":"checkbox","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"checkbox0000000001","name":"checkbox0000000001","label":"Tomar","defaultValue":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","options":[],"columnWidth":"10","width":100,"title":"Tomar"},{"type":"hidden","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"hidden0000000001","name":"hidden0000000001","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","width":100},{"type":"hidden","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"hidden0000000002","name":"hidden0000000002","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","width":100}],"data":[],"mode":"parent","layout":"responsive","pageSize":"0","addRow":false,"deleteRow":false,"title":"FORMULAS LABORATORIOS PENDIENTES","colSpan":12}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Continuar","colSpan":12}]],"variables":[{"var_uid":"2436824795ea75a85d46015083556153","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"gridVar003","var_field_type":"grid","var_field_size":10,"var_label":"grid","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2020-06-25 22:34:58]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>2207355205f0cc3bb3932a7091437598</dyn_uid>
+        <dyn_title>FRM_SUBIR_RESULTADOS</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[7447018655e6a7c1b82e2c5026533033/2207355205f0cc3bb3932a7091437598]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"FRM_SUBIR_RESULTADOS","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"2207355205f0cc3bb3932a7091437598","name":"FRM_SUBIR_RESULTADOS","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"form","variable":"","var_uid":"","dataType":"","id":"5023743595e6a7c1c760b49015916006","name":"IINFORMACION PACIENTE","description":"","mode":"edit","script":{"type":"js","code":"$(\"#button1001\").find(\"button\").on(\"click\" , function(){\n\t\n\twindow.open(\"http://orangecol.tk/sysamericana/es-ES/neoclassic/3196788185e5db675cac2c1081861327/2237636135d44bad1895dc1092946238.php\", \"\", \"width=1200,height=600\");\t\n});"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"subtitle","id":"subtitle1001","label":"INFORMACIÓN DEL PACIENTE","colSpan":12}],[{"type":"suggest","variable":"suggestVar1001","var_uid":"3450945595e6a7c1c781e25038568422","dataType":"string","protectedValue":false,"id":"suggestVar1001","name":"suggestVar1001","label":"Documento","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select no_historia, concat(no_historia,' - ',apel_1,' ',apel_2,' ',nom_1,' ',nom_2) as ced from hlt_pacientes","dataVariable":"","options":[],"delay":0,"var_name":"suggestVar1001","colSpan":4},{"type":"text","variable":"textVar1002","var_uid":"4585647215e6a7c1c785c89007916285","dataType":"string","protectedValue":false,"id":"textVar1002","name":"textVar1002","label":"Nombre","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select concat(apel_1,' ',apel_2,' ',nom_1,' ',nom_2) from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1002","colSpan":4},{"type":"text","variable":"textVar1020","var_uid":"8937701065e6a7c1c771411062159971","dataType":"string","protectedValue":false,"id":"textVar1020","name":"textVar1020","label":"RH","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select RH from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1020","colSpan":4}],[{"type":"text","variable":"textVar1010","var_uid":"3449845115e6a7c1c78dc45053957594","dataType":"string","protectedValue":false,"id":"textVar1010","name":"textVar1010","label":"Fecha de Nacimiento","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select fecha_nac from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1010","colSpan":4},{"type":"text","variable":"textVar1003","var_uid":"3050005125e6a7c1c78c413072515223","dataType":"string","protectedValue":false,"id":"textVar1003","name":"textVar1003","label":"Edad","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"SELECT Concat(date_part('year',age( fecha_nac )),' Años ',date_part('month',age( fecha_nac )) ,' Meses ',date_part('day',age( fecha_nac )) ,' Días') from hlt_pacientes where no_historia='@#suggestVar1001'","var_name":"textVar1003","colSpan":4},{"type":"text","variable":"textVar1011","var_uid":"2934695335e6a7c1c7787f2005073687","dataType":"string","protectedValue":false,"id":"textVar1011","name":"textVar1011","label":"Género","defaultValue":"Masculino","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select descripcion from hlt_pacientes a left join hlt_sexo b on a.cod_sexo=b.cod_sexo where a.no_historia = '@#suggestVar1001'","var_name":"textVar1011","colSpan":4}],[{"type":"text","variable":"textVar1004","var_uid":"7267744615e6a7c1c787958026871513","dataType":"string","protectedValue":false,"id":"textVar1004","name":"textVar1004","label":"Dirección","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select concat(direccion,' B./ ',barrio) from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1004","colSpan":4},{"type":"text","variable":"textVar1005","var_uid":"7154882725e6a7c1c77e2c5054409668","dataType":"string","protectedValue":false,"id":"textVar1005","name":"textVar1005","label":"Teléfono","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select telefono from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1005","colSpan":4},{"type":"text","variable":"textVar1006","var_uid":"2906398865e6a7c1c780302014408885","dataType":"string","protectedValue":false,"id":"textVar1006","name":"textVar1006","label":"Celular","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select celular from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1006","colSpan":4}],[{"type":"text","variable":"textVar1007","var_uid":"2303580325e6a7c1c789363003158970","dataType":"string","protectedValue":false,"id":"textVar1007","name":"textVar1007","label":"E-Mail","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select email from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1007","colSpan":4},{"type":"text","variable":"textVar1008","var_uid":"2139422715e6a7c1c77c9f5007840488","dataType":"string","protectedValue":false,"id":"textVar1008","name":"textVar1008","label":"Ocupación","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select descripcion from hlt_pacientes a left join hlt_ciuo b on a.cod_ciuo=b.cod_ciuo where a.no_historia='@#suggestVar1001'","var_name":"textVar1008","colSpan":4},{"type":"text","variable":"textVar1009","var_uid":"3801956695e6a7c1c78ac82023188100","dataType":"string","protectedValue":false,"id":"textVar1009","name":"textVar1009","label":"EPS","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.nombre from hlt_pacientes a left join hlt_empresa b on a.cod_empresa=b.cod_empresa where a.no_historia = '@#suggestVar1001'","var_name":"textVar1009","colSpan":4}],[{"type":"text","variable":"textVar1013","var_uid":"4709173585e6a7c1c7735d6081374902","dataType":"string","protectedValue":false,"id":"textVar1013","name":"textVar1013","label":"Estado Civil","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_estado_civil b on a.cod_estado_civil=b.cod_estado_civil where a.no_historia = '@#suggestVar1001'","var_name":"textVar1013","colSpan":4},{"type":"text","variable":"textVar1014","var_uid":"8707236185e6a7c1c77ad04056436023","dataType":"string","protectedValue":false,"id":"textVar1014","name":"textVar1014","label":"Estrato","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_estrato b on a.cod_estrato=b.cod_estrato where a.no_historia = '@#suggestVar1001'","var_name":"textVar1014","colSpan":4},{"type":"text","variable":"textVar1015","var_uid":"8343380725e6a7c1c76e795059145597","dataType":"string","protectedValue":false,"id":"textVar1015","name":"textVar1015","label":"Etnia","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_etnia b on a.cod_etnia=b.cod_etnia where a.no_historia = '@#suggestVar1001'","var_name":"textVar1015","colSpan":4}],[{"type":"text","variable":"textVar1016","var_uid":"4952450365e6a7c1c783d66056489210","dataType":"string","protectedValue":false,"id":"textVar1016","name":"textVar1016","label":"Nivel de Estudios","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_escolaridad b on a.cod_escolaridad=b.cod_escolaridad where a.no_historia = '@#suggestVar1001'","var_name":"textVar1016","colSpan":4},{"type":"text","variable":"textVar1017","var_uid":"4876803035e6a7c1c775fc3099896564","dataType":"string","protectedValue":false,"id":"textVar1017","name":"textVar1017","label":"Discapacidad","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_discapacidad b on a.cod_discapacidad=b.cod_discapacidad where a.no_historia = '@#suggestVar1001'","var_name":"textVar1017","colSpan":4},{"type":"text","variable":"textVar1012","var_uid":"4185186275e6a7c1c769bf4076361698","dataType":"string","protectedValue":false,"id":"textVar1012","name":"textVar1012","label":"Afiliación","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"SELECT CASE WHEN afiliacion= '2' THEN 'Subsidiado' WHEN afiliacion= '1' THEN 'Contributivo'  ELSE 'Particular' END from hlt_pacientes where no_historia = '@#suggestVar1001'\n\n","var_name":"textVar1012","colSpan":4}]],"variables":[{"var_uid":"3450945595e6a7c1c781e25038568422","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"suggestVar1001","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4080777495e5db67d2561b7009344399","var_name_old":"suggestVar1001","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4585647215e6a7c1c785c89007916285","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1002","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7567301165e5db67d1d8490065709560","var_name_old":"textVar1002","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8937701065e6a7c1c771411062159971","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1020","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2066662545e5db67ce86514020504025","var_name_old":"textVar1020","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"3449845115e6a7c1c78dc45053957594","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1010","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1600462685e5db67ce0c5f7002130665","var_name_old":"textVar1010","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"3050005125e6a7c1c78c413072515223","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1003","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1406136365e5db67d0928c9093712481","var_name_old":"textVar1003","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2934695335e6a7c1c7787f2005073687","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1011","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"3597483075e5db67ceb76f6038248744","var_name_old":"textVar1011","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"7267744615e6a7c1c787958026871513","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1004","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2594583565e5db67d06aa98059604395","var_name_old":"textVar1004","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"7154882725e6a7c1c77e2c5054409668","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1005","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"5238994965e5db67cc66f11092649620","var_name_old":"textVar1005","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2906398865e6a7c1c780302014408885","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1006","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6026650695e5db67cc761c5056911869","var_name_old":"textVar1006","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2303580325e6a7c1c789363003158970","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1007","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8341092315e5db67d2da7b5068744040","var_name_old":"textVar1007","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2139422715e6a7c1c77c9f5007840488","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1008","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7107641625e5db67d268942049621086","var_name_old":"textVar1008","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"3801956695e6a7c1c78ac82023188100","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1009","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6561402985e5db67d2e15e3007913254","var_name_old":"textVar1009","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4709173585e6a7c1c7735d6081374902","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1013","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"9459326265e5db67cda9b61058871767","var_name_old":"textVar1013","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8707236185e6a7c1c77ad04056436023","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1014","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8653423815e5db67d100327082135240","var_name_old":"textVar1014","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8343380725e6a7c1c76e795059145597","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1015","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8110358755e5db67d1f7865011244194","var_name_old":"textVar1015","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4952450365e6a7c1c783d66056489210","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1016","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8005765635e5db67d02c851015801988","var_name_old":"textVar1016","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4876803035e6a7c1c775fc3099896564","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1017","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2680535475e5db67d114986038052103","var_name_old":"textVar1017","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4185186275e6a7c1c769bf4076361698","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1012","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1348978205e5db67d130fe4028119224","var_name_old":"textVar1012","prj_uid_old":"3196788185e5db675cac2c1081861327"}],"colSpan":12}]],"variables":[]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2020-07-13 20:33:06]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>3293241195ea75cbc639328075111848</dyn_uid>
+        <dyn_title>FRM_TOMAR_MUESTRAS</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[7447018655e6a7c1b82e2c5026533033/3293241195ea75cbc639328075111848]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"FRM_TOMAR_MUESTRAS","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"3293241195ea75cbc639328075111848","name":"FRM_TOMAR_MUESTRAS","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"form","variable":"","var_uid":"","dataType":"","id":"5023743595e6a7c1c760b49015916006","name":"IINFORMACION PACIENTE","description":"","mode":"edit","script":{"type":"js","code":"$(\"#button1001\").find(\"button\").on(\"click\" , function(){\n\t\n\twindow.open(\"http://orangecol.tk/sysamericana/es-ES/neoclassic/3196788185e5db675cac2c1081861327/2237636135d44bad1895dc1092946238.php\", \"\", \"width=1200,height=600\");\t\n});"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"subtitle","id":"subtitle1001","label":"INFORMACIÓN DEL PACIENTE","colSpan":12}],[{"type":"suggest","variable":"suggestVar1001","var_uid":"3450945595e6a7c1c781e25038568422","dataType":"string","protectedValue":false,"id":"suggestVar1001","name":"suggestVar1001","label":"Documento","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select no_historia, concat(no_historia,' - ',apel_1,' ',apel_2,' ',nom_1,' ',nom_2) as ced from hlt_pacientes","dataVariable":"","options":[],"delay":0,"var_name":"suggestVar1001","colSpan":4},{"type":"text","variable":"textVar1002","var_uid":"4585647215e6a7c1c785c89007916285","dataType":"string","protectedValue":false,"id":"textVar1002","name":"textVar1002","label":"Nombre","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select concat(apel_1,' ',apel_2,' ',nom_1,' ',nom_2) from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1002","colSpan":4},{"type":"text","variable":"textVar1020","var_uid":"8937701065e6a7c1c771411062159971","dataType":"string","protectedValue":false,"id":"textVar1020","name":"textVar1020","label":"RH","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select RH from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1020","colSpan":4}],[{"type":"text","variable":"textVar1010","var_uid":"3449845115e6a7c1c78dc45053957594","dataType":"string","protectedValue":false,"id":"textVar1010","name":"textVar1010","label":"Fecha de Nacimiento","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select fecha_nac from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1010","colSpan":4},{"type":"text","variable":"textVar1003","var_uid":"3050005125e6a7c1c78c413072515223","dataType":"string","protectedValue":false,"id":"textVar1003","name":"textVar1003","label":"Edad","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"SELECT Concat(date_part('year',age( fecha_nac )),' Años ',date_part('month',age( fecha_nac )) ,' Meses ',date_part('day',age( fecha_nac )) ,' Días') from hlt_pacientes where no_historia='@#suggestVar1001'","var_name":"textVar1003","colSpan":4},{"type":"text","variable":"textVar1011","var_uid":"2934695335e6a7c1c7787f2005073687","dataType":"string","protectedValue":false,"id":"textVar1011","name":"textVar1011","label":"Género","defaultValue":"Masculino","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select descripcion from hlt_pacientes a left join hlt_sexo b on a.cod_sexo=b.cod_sexo where a.no_historia = '@#suggestVar1001'","var_name":"textVar1011","colSpan":4}],[{"type":"text","variable":"textVar1004","var_uid":"7267744615e6a7c1c787958026871513","dataType":"string","protectedValue":false,"id":"textVar1004","name":"textVar1004","label":"Dirección","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select concat(direccion,' B./ ',barrio) from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1004","colSpan":4},{"type":"text","variable":"textVar1005","var_uid":"7154882725e6a7c1c77e2c5054409668","dataType":"string","protectedValue":false,"id":"textVar1005","name":"textVar1005","label":"Teléfono","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select telefono from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1005","colSpan":4},{"type":"text","variable":"textVar1006","var_uid":"2906398865e6a7c1c780302014408885","dataType":"string","protectedValue":false,"id":"textVar1006","name":"textVar1006","label":"Celular","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select celular from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1006","colSpan":4}],[{"type":"text","variable":"textVar1007","var_uid":"2303580325e6a7c1c789363003158970","dataType":"string","protectedValue":false,"id":"textVar1007","name":"textVar1007","label":"E-Mail","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select email from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1007","colSpan":4},{"type":"text","variable":"textVar1008","var_uid":"2139422715e6a7c1c77c9f5007840488","dataType":"string","protectedValue":false,"id":"textVar1008","name":"textVar1008","label":"Ocupación","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select descripcion from hlt_pacientes a left join hlt_ciuo b on a.cod_ciuo=b.cod_ciuo where a.no_historia='@#suggestVar1001'","var_name":"textVar1008","colSpan":4},{"type":"text","variable":"textVar1009","var_uid":"3801956695e6a7c1c78ac82023188100","dataType":"string","protectedValue":false,"id":"textVar1009","name":"textVar1009","label":"EPS","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.nombre from hlt_pacientes a left join hlt_empresa b on a.cod_empresa=b.cod_empresa where a.no_historia = '@#suggestVar1001'","var_name":"textVar1009","colSpan":4}],[{"type":"text","variable":"textVar1013","var_uid":"4709173585e6a7c1c7735d6081374902","dataType":"string","protectedValue":false,"id":"textVar1013","name":"textVar1013","label":"Estado Civil","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_estado_civil b on a.cod_estado_civil=b.cod_estado_civil where a.no_historia = '@#suggestVar1001'","var_name":"textVar1013","colSpan":4},{"type":"text","variable":"textVar1014","var_uid":"8707236185e6a7c1c77ad04056436023","dataType":"string","protectedValue":false,"id":"textVar1014","name":"textVar1014","label":"Estrato","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_estrato b on a.cod_estrato=b.cod_estrato where a.no_historia = '@#suggestVar1001'","var_name":"textVar1014","colSpan":4},{"type":"text","variable":"textVar1015","var_uid":"8343380725e6a7c1c76e795059145597","dataType":"string","protectedValue":false,"id":"textVar1015","name":"textVar1015","label":"Etnia","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_etnia b on a.cod_etnia=b.cod_etnia where a.no_historia = '@#suggestVar1001'","var_name":"textVar1015","colSpan":4}],[{"type":"text","variable":"textVar1016","var_uid":"4952450365e6a7c1c783d66056489210","dataType":"string","protectedValue":false,"id":"textVar1016","name":"textVar1016","label":"Nivel de Estudios","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_escolaridad b on a.cod_escolaridad=b.cod_escolaridad where a.no_historia = '@#suggestVar1001'","var_name":"textVar1016","colSpan":4},{"type":"text","variable":"textVar1017","var_uid":"4876803035e6a7c1c775fc3099896564","dataType":"string","protectedValue":false,"id":"textVar1017","name":"textVar1017","label":"Discapacidad","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_discapacidad b on a.cod_discapacidad=b.cod_discapacidad where a.no_historia = '@#suggestVar1001'","var_name":"textVar1017","colSpan":4},{"type":"text","variable":"textVar1012","var_uid":"4185186275e6a7c1c769bf4076361698","dataType":"string","protectedValue":false,"id":"textVar1012","name":"textVar1012","label":"Afiliación","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"SELECT CASE WHEN afiliacion= '0' THEN 'Afiliado' ELSE 'Subsidiado' END from hlt_pacientes where no_historia = '@#suggestVar1001'\n\n","var_name":"textVar1012","colSpan":4}]],"variables":[{"var_uid":"3450945595e6a7c1c781e25038568422","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"suggestVar1001","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4080777495e5db67d2561b7009344399","var_name_old":"suggestVar1001","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4585647215e6a7c1c785c89007916285","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1002","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7567301165e5db67d1d8490065709560","var_name_old":"textVar1002","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8937701065e6a7c1c771411062159971","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1020","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2066662545e5db67ce86514020504025","var_name_old":"textVar1020","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"3449845115e6a7c1c78dc45053957594","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1010","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1600462685e5db67ce0c5f7002130665","var_name_old":"textVar1010","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"3050005125e6a7c1c78c413072515223","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1003","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1406136365e5db67d0928c9093712481","var_name_old":"textVar1003","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2934695335e6a7c1c7787f2005073687","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1011","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"3597483075e5db67ceb76f6038248744","var_name_old":"textVar1011","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"7267744615e6a7c1c787958026871513","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1004","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2594583565e5db67d06aa98059604395","var_name_old":"textVar1004","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"7154882725e6a7c1c77e2c5054409668","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1005","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"5238994965e5db67cc66f11092649620","var_name_old":"textVar1005","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2906398865e6a7c1c780302014408885","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1006","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6026650695e5db67cc761c5056911869","var_name_old":"textVar1006","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2303580325e6a7c1c789363003158970","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1007","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8341092315e5db67d2da7b5068744040","var_name_old":"textVar1007","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2139422715e6a7c1c77c9f5007840488","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1008","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7107641625e5db67d268942049621086","var_name_old":"textVar1008","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"3801956695e6a7c1c78ac82023188100","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1009","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6561402985e5db67d2e15e3007913254","var_name_old":"textVar1009","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4709173585e6a7c1c7735d6081374902","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1013","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"9459326265e5db67cda9b61058871767","var_name_old":"textVar1013","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8707236185e6a7c1c77ad04056436023","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1014","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8653423815e5db67d100327082135240","var_name_old":"textVar1014","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8343380725e6a7c1c76e795059145597","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1015","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8110358755e5db67d1f7865011244194","var_name_old":"textVar1015","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4952450365e6a7c1c783d66056489210","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1016","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8005765635e5db67d02c851015801988","var_name_old":"textVar1016","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4876803035e6a7c1c775fc3099896564","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1017","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2680535475e5db67d114986038052103","var_name_old":"textVar1017","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4185186275e6a7c1c769bf4076361698","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1012","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1348978205e5db67d130fe4028119224","var_name_old":"textVar1012","prj_uid_old":"3196788185e5db675cac2c1081861327"}],"colSpan":12}],[{"type":"grid","variable":"gridVar004","var_uid":"1654554245ea75cea1dc3f0030734337","dataType":"grid","protectedValue":false,"id":"gridVar004","name":"gridVar004","label":"LABORATORIOS","hint":"","required":false,"requiredFieldErrorMessage":"","columns":[{"type":"hidden","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"consecutivo_laboratorio","name":"consecutivo_laboratorio","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","width":100},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"cod_laboratorio","name":"cod_laboratorio","label":"Codigo","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"15","width":100,"title":"Codigo","var_name":"gridVar004"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"descripcion","name":"descripcion","label":"Descripcion","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"30","width":100,"title":"Descripcion"},{"type":"hidden","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"consecutivo_formula_laboratorio","name":"consecutivo_formula_laboratorio","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","width":100},{"type":"checkbox","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"checkbox0000000001","name":"checkbox0000000001","label":"Muestra Tomada","defaultValue":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","options":[],"columnWidth":"15","width":100,"title":"Muestra Tomada"}],"data":[],"mode":"parent","layout":"responsive","pageSize":"0","addRow":false,"deleteRow":false,"title":"LABORATORIOS","colSpan":12}],[{"colSpan":4},{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Finalizar","colSpan":4},{"colSpan":4}]],"variables":[{"var_uid":"1654554245ea75cea1dc3f0030734337","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"gridVar004","var_field_type":"grid","var_field_size":10,"var_label":"grid","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2020-04-29 22:50:55]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>5023743595e6a7c1c760b49015916006</dyn_uid>
+        <dyn_title>IINFORMACION PACIENTE</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[7447018655e6a7c1b82e2c5026533033/5023743595e6a7c1c760b49015916006]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"IINFORMACION PACIENTE","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"5023743595e6a7c1c760b49015916006","name":"IINFORMACION PACIENTE","description":"","mode":"edit","script":{"type":"js","code":"$(\"#button1001\").find(\"button\").on(\"click\" , function(){\n\t\n\twindow.open(\"http://orangecol.tk/sysamericana/es-ES/neoclassic/3196788185e5db675cac2c1081861327/2237636135d44bad1895dc1092946238.php\", \"\", \"width=1200,height=600\");\t\n});"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"subtitle","id":"subtitle1001","label":"INFORMACIÓN DEL PACIENTE","colSpan":12}],[{"type":"suggest","variable":"suggestVar1001","var_uid":"3450945595e6a7c1c781e25038568422","dataType":"string","protectedValue":false,"id":"suggestVar1001","name":"suggestVar1001","label":"Documento","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select no_historia, concat(no_historia,' - ',apel_1,' ',apel_2,' ',nom_1,' ',nom_2) as ced from hlt_pacientes","dataVariable":"","options":[],"delay":0,"var_name":"suggestVar1001","colSpan":4},{"type":"text","variable":"textVar1002","var_uid":"4585647215e6a7c1c785c89007916285","dataType":"string","protectedValue":false,"id":"textVar1002","name":"textVar1002","label":"Nombre","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select concat(apel_1,' ',apel_2,' ',nom_1,' ',nom_2) from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1002","colSpan":4},{"type":"text","variable":"textVar1020","var_uid":"8937701065e6a7c1c771411062159971","dataType":"string","protectedValue":false,"id":"textVar1020","name":"textVar1020","label":"RH","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select RH from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1020","colSpan":4}],[{"type":"text","variable":"textVar1010","var_uid":"3449845115e6a7c1c78dc45053957594","dataType":"string","protectedValue":false,"id":"textVar1010","name":"textVar1010","label":"Fecha de Nacimiento","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select fecha_nac from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1010","colSpan":4},{"type":"text","variable":"textVar1003","var_uid":"3050005125e6a7c1c78c413072515223","dataType":"string","protectedValue":false,"id":"textVar1003","name":"textVar1003","label":"Edad","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"SELECT Concat(date_part('year',age( fecha_nac )),' Años ',date_part('month',age( fecha_nac )) ,' Meses ',date_part('day',age( fecha_nac )) ,' Días') from hlt_pacientes where no_historia='@#suggestVar1001'","var_name":"textVar1003","colSpan":4},{"type":"text","variable":"textVar1011","var_uid":"2934695335e6a7c1c7787f2005073687","dataType":"string","protectedValue":false,"id":"textVar1011","name":"textVar1011","label":"Género","defaultValue":"Masculino","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select descripcion from hlt_pacientes a left join hlt_sexo b on a.cod_sexo=b.cod_sexo where a.no_historia = '@#suggestVar1001'","var_name":"textVar1011","colSpan":4}],[{"type":"text","variable":"textVar1004","var_uid":"7267744615e6a7c1c787958026871513","dataType":"string","protectedValue":false,"id":"textVar1004","name":"textVar1004","label":"Dirección","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select concat(direccion,' B./ ',barrio) from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1004","colSpan":4},{"type":"text","variable":"textVar1005","var_uid":"7154882725e6a7c1c77e2c5054409668","dataType":"string","protectedValue":false,"id":"textVar1005","name":"textVar1005","label":"Teléfono","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select telefono from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1005","colSpan":4},{"type":"text","variable":"textVar1006","var_uid":"2906398865e6a7c1c780302014408885","dataType":"string","protectedValue":false,"id":"textVar1006","name":"textVar1006","label":"Celular","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select celular from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1006","colSpan":4}],[{"type":"text","variable":"textVar1007","var_uid":"2303580325e6a7c1c789363003158970","dataType":"string","protectedValue":false,"id":"textVar1007","name":"textVar1007","label":"E-Mail","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select email from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1007","colSpan":4},{"type":"text","variable":"textVar1008","var_uid":"2139422715e6a7c1c77c9f5007840488","dataType":"string","protectedValue":false,"id":"textVar1008","name":"textVar1008","label":"Ocupación","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select descripcion from hlt_pacientes a left join hlt_ciuo b on a.cod_ciuo=b.cod_ciuo where a.no_historia='@#suggestVar1001'","var_name":"textVar1008","colSpan":4},{"type":"text","variable":"textVar1009","var_uid":"3801956695e6a7c1c78ac82023188100","dataType":"string","protectedValue":false,"id":"textVar1009","name":"textVar1009","label":"EPS","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.nombre from hlt_pacientes a left join hlt_empresa b on a.cod_empresa=b.cod_empresa where a.no_historia = '@#suggestVar1001'","var_name":"textVar1009","colSpan":4}],[{"type":"text","variable":"textVar1013","var_uid":"4709173585e6a7c1c7735d6081374902","dataType":"string","protectedValue":false,"id":"textVar1013","name":"textVar1013","label":"Estado Civil","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_estado_civil b on a.cod_estado_civil=b.cod_estado_civil where a.no_historia = '@#suggestVar1001'","var_name":"textVar1013","colSpan":4},{"type":"text","variable":"textVar1014","var_uid":"8707236185e6a7c1c77ad04056436023","dataType":"string","protectedValue":false,"id":"textVar1014","name":"textVar1014","label":"Estrato","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_estrato b on a.cod_estrato=b.cod_estrato where a.no_historia = '@#suggestVar1001'","var_name":"textVar1014","colSpan":4},{"type":"text","variable":"textVar1015","var_uid":"8343380725e6a7c1c76e795059145597","dataType":"string","protectedValue":false,"id":"textVar1015","name":"textVar1015","label":"Etnia","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_etnia b on a.cod_etnia=b.cod_etnia where a.no_historia = '@#suggestVar1001'","var_name":"textVar1015","colSpan":4}],[{"type":"text","variable":"textVar1016","var_uid":"4952450365e6a7c1c783d66056489210","dataType":"string","protectedValue":false,"id":"textVar1016","name":"textVar1016","label":"Nivel de Estudios","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_escolaridad b on a.cod_escolaridad=b.cod_escolaridad where a.no_historia = '@#suggestVar1001'","var_name":"textVar1016","colSpan":4},{"type":"text","variable":"textVar1017","var_uid":"4876803035e6a7c1c775fc3099896564","dataType":"string","protectedValue":false,"id":"textVar1017","name":"textVar1017","label":"Discapacidad","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_discapacidad b on a.cod_discapacidad=b.cod_discapacidad where a.no_historia = '@#suggestVar1001'","var_name":"textVar1017","colSpan":4},{"type":"text","variable":"textVar1012","var_uid":"4185186275e6a7c1c769bf4076361698","dataType":"string","protectedValue":false,"id":"textVar1012","name":"textVar1012","label":"Afiliación","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"3373511725e605f6ccd97b4091533134","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"SELECT CASE WHEN afiliacion= '2' THEN 'Subsidiado' WHEN afiliacion= '1' THEN 'Contributivo'  ELSE 'Particular' END from hlt_pacientes where no_historia = '@#suggestVar1001'\n\n","var_name":"textVar1012","colSpan":4}]],"variables":[{"var_uid":"3450945595e6a7c1c781e25038568422","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"suggestVar1001","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4080777495e5db67d2561b7009344399","var_name_old":"suggestVar1001","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4585647215e6a7c1c785c89007916285","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1002","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7567301165e5db67d1d8490065709560","var_name_old":"textVar1002","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8937701065e6a7c1c771411062159971","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1020","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2066662545e5db67ce86514020504025","var_name_old":"textVar1020","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"3449845115e6a7c1c78dc45053957594","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1010","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1600462685e5db67ce0c5f7002130665","var_name_old":"textVar1010","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"3050005125e6a7c1c78c413072515223","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1003","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1406136365e5db67d0928c9093712481","var_name_old":"textVar1003","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2934695335e6a7c1c7787f2005073687","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1011","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"3597483075e5db67ceb76f6038248744","var_name_old":"textVar1011","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"7267744615e6a7c1c787958026871513","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1004","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2594583565e5db67d06aa98059604395","var_name_old":"textVar1004","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"7154882725e6a7c1c77e2c5054409668","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1005","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"5238994965e5db67cc66f11092649620","var_name_old":"textVar1005","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2906398865e6a7c1c780302014408885","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1006","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6026650695e5db67cc761c5056911869","var_name_old":"textVar1006","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2303580325e6a7c1c789363003158970","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1007","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8341092315e5db67d2da7b5068744040","var_name_old":"textVar1007","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2139422715e6a7c1c77c9f5007840488","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1008","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7107641625e5db67d268942049621086","var_name_old":"textVar1008","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"3801956695e6a7c1c78ac82023188100","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1009","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6561402985e5db67d2e15e3007913254","var_name_old":"textVar1009","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4709173585e6a7c1c7735d6081374902","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1013","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"9459326265e5db67cda9b61058871767","var_name_old":"textVar1013","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8707236185e6a7c1c77ad04056436023","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1014","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8653423815e5db67d100327082135240","var_name_old":"textVar1014","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8343380725e6a7c1c76e795059145597","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1015","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8110358755e5db67d1f7865011244194","var_name_old":"textVar1015","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4952450365e6a7c1c783d66056489210","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1016","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8005765635e5db67d02c851015801988","var_name_old":"textVar1016","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4876803035e6a7c1c775fc3099896564","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1017","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2680535475e5db67d114986038052103","var_name_old":"textVar1017","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4185186275e6a7c1c769bf4076361698","prj_uid":"7447018655e6a7c1b82e2c5026533033","var_name":"textVar1012","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1348978205e5db67d130fe4028119224","var_name_old":"textVar1012","prj_uid_old":"3196788185e5db675cac2c1081861327"}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2020-06-25 22:42:50]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>1182705105eaa2422dd3dd4018382584</step_uid>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <tas_uid>5565173765e6a7c1bde12b2000792099</tas_uid>
+        <step_type_obj>OUTPUT_DOCUMENT</step_type_obj>
+        <step_uid_obj>2156606705eaa23cd72eda2089972263</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>3</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>5836056085ea7740e55a975018452454</step_uid>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <tas_uid>5565173765e6a7c1bde12b2000792099</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>3293241195ea75cbc639328075111848</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>2</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>9880489465ea7740552c575069878404</step_uid>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <tas_uid>5565173765e6a7c1bde12b2000792099</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>1359360665ea759ed77f6a3060283197</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>2720645815ea8ad5320ce18012283993</tri_uid>
+        <tri_title>TGG_MUESTRAS_TOMADAS</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$no_historia = @@suggestVar1001;
+$fecha = date("Y-m-d H:i:s", strtotime("-5 hours"));
+
+foreach (@=gridVar004 as $aRow) {
+	
+	if($aRow['checkbox0000000001'] == '1'){
+
+		$estado = '1';
+		$consecutivo_formula_laboratorio = @@consecutivo_formula_laboratorio =$aRow['consecutivo_formula_laboratorio'];
+		$consecutivo_laboratorio = @@consecutivo_laboratorio =$aRow['consecutivo_laboratorio'] ;
+		$query 	= "update hlt_formula_laboratorio set estado = '$estado', fecha_toma='$fecha' where no_historia='$no_historia' AND consecutivo_laboratorio = '$consecutivo_laboratorio'; ";
+ 		$result = executeQuery($query,'3373511725e605f6ccd97b4091533134');
+	}
+}]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>2928277395eed5219b0f588095619376</tri_uid>
+        <tri_title>TGG_FIRMA_MEDICO</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[foreach (@=gridVar003 as $aRow) {
+	
+	if($aRow['checkbox0000000001'] == '1'){
+
+		$caso = $aRow['hidden0000000001'];
+	}
+}
+
+@@CASO_CARAJO = $caso;
+@@query=$query = "select cod_profesional, profesional from hlt_citas where caso = '$caso'";
+
+$result = executeQuery($query,'3373511725e605f6ccd97b4091533134');
+
+@@cod_profesional =  $result['1']['cod_profesional'];
+@@profesional =  $result['1']['profesional'];
+
+//firmas medico
+$usr_uid = @@cod_profesional;
+@@firma_medico = "<img src=\""."./firmas/".$usr_uid.".png\" alt=\"firma\" height=\"50\" width=\"100\">";
+
+@@sello_medico = "<img src=\""."http://health.ipsdorada.com/sellos/".$usr_uid.".png\" alt=\"sello\" height=\"50\" width=\"100\">";]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>3238847765ea772b13e6408034702708</tri_uid>
+        <tri_title>TGG_CARGA_LABORATORIOS</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[foreach (@=gridVar003 as $aRow) {
+	
+	if($aRow['checkbox0000000001'] == '1'){
+
+		$caso = $aRow['hidden0000000001'];
+		$observacion = $aRow['hidden0000000002'];
+		
+	}
+}
+
+@@CASO_CARAJO = $caso;
+@@OBSERVACIONES = $observacion;
+
+$query = "select b.consecutivo_laboratorio, b.cod_laboratorio,b.descripcion, a.consecutivo_formula_laboratorio from hlt_formula_laboratorio a left join hlt_laboratorio b on cast(a.consecutivo_laboratorio as integer) = b.consecutivo_laboratorio where a.caso = '$caso';";
+$res = executeQuery($query,'3373511725e605f6ccd97b4091533134');
+
+if (is_array($res) and count($res) > 0){
+  @=gridVar004 = $res;
+}]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+    </table>
+    <table name="taskusers">
+      <record>
+        <tas_uid>5565173765e6a7c1bde12b2000792099</tas_uid>
+        <usr_uid>5807445655e744ac9c3bc77012809695</usr_uid>
+        <tu_type>1</tu_type>
+        <tu_relation>2</tu_relation>
+      </record>
+      <record>
+        <tas_uid>5565173765e6a7c1bde12b2000792099</tas_uid>
+        <usr_uid>7446326335e744a8a1c0bf4057588500</usr_uid>
+        <tu_type>1</tu_type>
+        <tu_relation>2</tu_relation>
+      </record>
+    </table>
+    <table name="groupwfs">
+      <record>
+        <grp_uid>5807445655e744ac9c3bc77012809695</grp_uid>
+        <grp_title>Laboratorista</grp_title>
+        <grp_status>ACTIVE</grp_status>
+        <grp_ldap_dn></grp_ldap_dn>
+        <grp_ux>NORMAL</grp_ux>
+      </record>
+      <record>
+        <grp_uid>7446326335e744a8a1c0bf4057588500</grp_uid>
+        <grp_title>Regente</grp_title>
+        <grp_status>ACTIVE</grp_status>
+        <grp_ldap_dn></grp_ldap_dn>
+        <grp_ux>NORMAL</grp_ux>
+      </record>
+    </table>
+    <table name="steptriggers">
+      <record>
+        <step_uid>5836056085ea7740e55a975018452454</step_uid>
+        <tas_uid>5565173765e6a7c1bde12b2000792099</tas_uid>
+        <tri_uid>2720645815ea8ad5320ce18012283993</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>9880489465ea7740552c575069878404</step_uid>
+        <tas_uid>5565173765e6a7c1bde12b2000792099</tas_uid>
+        <tri_uid>2928277395eed5219b0f588095619376</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>2</st_position>
+      </record>
+      <record>
+        <step_uid>9880489465ea7740552c575069878404</step_uid>
+        <tas_uid>5565173765e6a7c1bde12b2000792099</tas_uid>
+        <tri_uid>3238847765ea772b13e6408034702708</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections">
+      <record>
+        <dbs_uid>3373511725e605f6ccd97b4091533134</dbs_uid>
+        <pro_uid>7447018655e6a7c1b82e2c5026533033</pro_uid>
+        <dbs_type>pgsql</dbs_type>
+        <dbs_server>localhost</dbs_server>
+        <dbs_database_name>dorada</dbs_database_name>
+        <dbs_username>postgres</dbs_username>
+        <dbs_password>xMXh08vTkpai_2NnV3ujj3w</dbs_password>
+        <dbs_port>5432</dbs_port>
+        <dbs_encode>UTF8</dbs_encode>
+        <dbs_connection_type>NORMAL</dbs_connection_type>
+        <dbs_tns></dbs_tns>
+        <dbs_description></dbs_description>
+      </record>
+    </table>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory">
+      <record>
+        <category_uid>7234013095eb9672f307462040831329</category_uid>
+        <category_parent>0</category_parent>
+        <category_name>Health</category_name>
+        <category_icon></category_icon>
+      </record>
+    </table>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>1654554245ea75cea1dc3f0030734337</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>gridVar004</var_name>
+        <var_field_type>grid</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>grid</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2139422715e6a7c1c77c9f5007840488</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1008</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2303580325e6a7c1c789363003158970</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1007</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2436824795ea75a85d46015083556153</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>gridVar003</var_name>
+        <var_field_type>grid</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>grid</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2906398865e6a7c1c780302014408885</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1006</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2934695335e6a7c1c7787f2005073687</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1011</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3050005125e6a7c1c78c413072515223</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1003</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3449845115e6a7c1c78dc45053957594</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1010</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3450945595e6a7c1c781e25038568422</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>suggestVar1001</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3801956695e6a7c1c78ac82023188100</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1009</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4185186275e6a7c1c769bf4076361698</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1012</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4585647215e6a7c1c785c89007916285</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1002</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4709173585e6a7c1c7735d6081374902</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1013</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4876803035e6a7c1c775fc3099896564</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1017</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4952450365e6a7c1c783d66056489210</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1016</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6862021165e6a7c1c78f703073492174</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>gridVar001</var_name>
+        <var_field_type>grid</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>grid</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7154882725e6a7c1c77e2c5054409668</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1005</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7267744615e6a7c1c787958026871513</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1004</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7513925955ea0c079d4d7e1003935420</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>gridVar002</var_name>
+        <var_field_type>grid</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>grid</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8343380725e6a7c1c76e795059145597</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1015</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8707236185e6a7c1c77ad04056436023</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1014</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8937701065e6a7c1c771411062159971</var_uid>
+        <prj_uid>7447018655e6a7c1b82e2c5026533033</prj_uid>
+        <var_name>textVar1020</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>FRM_REVIVSION_LABORATORIO</file_name>
+      <file_path><![CDATA[7447018655e6a7c1b82e2c5026533033/1359360665ea759ed77f6a3060283197.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijc0NDcwMTg2NTVlNmE3YzFiODJlMmM1MDI2NTMzMDMzLzEzNTkzNjA2NjVlYTc1OWVkNzdmNmEzMDYwMjgzMTk3IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>FRM_SUBIR_RESULTADOS</file_name>
+      <file_path><![CDATA[7447018655e6a7c1b82e2c5026533033/2207355205f0cc3bb3932a7091437598.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijc0NDcwMTg2NTVlNmE3YzFiODJlMmM1MDI2NTMzMDMzLzIyMDczNTUyMDVmMGNjM2JiMzkzMmE3MDkxNDM3NTk4IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>FRM_TOMAR_MUESTRAS</file_name>
+      <file_path><![CDATA[7447018655e6a7c1b82e2c5026533033/3293241195ea75cbc639328075111848.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijc0NDcwMTg2NTVlNmE3YzFiODJlMmM1MDI2NTMzMDMzLzMyOTMyNDExOTVlYTc1Y2JjNjM5MzI4MDc1MTExODQ4IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>IINFORMACION PACIENTE</file_name>
+      <file_path><![CDATA[7447018655e6a7c1b82e2c5026533033/5023743595e6a7c1c760b49015916006.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijc0NDcwMTg2NTVlNmE3YzFiODJlMmM1MDI2NTMzMDMzLzUwMjM3NDM1OTVlNmE3YzFjNzYwYjQ5MDE1OTE2MDA2IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>

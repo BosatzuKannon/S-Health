@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.3.3-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1604973149</meta>
+    <meta key="export_datetime"><![CDATA[2020-11-10T01:52:29+00:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[134.122.7.59:80]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">50640</meta>
+    <meta key="workspace">dorada</meta>
+    <meta key="name">Administracion Dorada</meta>
+    <meta key="uid">8324948215e6ffdf4c9b5e3096199562</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>2302759785ea745e184a404089570841</act_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <pro_uid>8372942075e6ffdf4e54668064307357</pro_uid>
+        <act_name>Reportes</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>1</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>2304238405ea745e1853b73017349371</bou_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>2302759785ea745e184a404089570841</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>272</bou_x>
+        <bou_y>257</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <act_uid>6668668835e7a7b55e62e16086487232</act_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <pro_uid>8372942075e6ffdf4e54668064307357</pro_uid>
+        <act_name><![CDATA[Número de Factura]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>4799520245e7a7b55e6ea64035786592</bou_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>6668668835e7a7b55e62e16086487232</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>252</bou_x>
+        <bou_y>120</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <act_uid>2222273275e6ffe55078582065824404</act_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <pro_uid>8372942075e6ffdf4e54668064307357</pro_uid>
+        <act_name>Registro Personal</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>6610267415e6ffe550829f8035815866</bou_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>2222273275e6ffe55078582065824404</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>252</bou_x>
+        <bou_y>17</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>1655417715e6ffe55293018089916305</bou_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>3519568335e6ffe5528adb4019799236</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>135</bou_x>
+        <bou_y>40</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>2304238405ea745e1853b73017349371</bou_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>2302759785ea745e184a404089570841</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>272</bou_x>
+        <bou_y>257</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>4263266395e6ffe553ca508072815227</bou_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>2259270925e6ffe553c3d30039590286</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>547</bou_x>
+        <bou_y>40</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>4598289265ea745e296bd06032638931</bou_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>4415777195ea745e2965491083124479</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>546</bou_x>
+        <bou_y>269</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>4799520245e7a7b55e6ea64035786592</bou_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>6668668835e7a7b55e62e16086487232</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>252</bou_x>
+        <bou_y>120</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>5852735685e7a7b5658ef44084054779</bou_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>5403589895e7a7b56587fc8029911621</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>538</bou_x>
+        <bou_y>141</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>6505949865e7a7b564422f6066995479</bou_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>9520876405e7a7b5643a3f3045480832</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>135</bou_x>
+        <bou_y>153</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>6610267415e6ffe550829f8035815866</bou_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>2222273275e6ffe55078582065824404</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>252</bou_x>
+        <bou_y>17</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>7161647575ea745e28668b3079887853</bou_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>9667243645ea745e28601e2083472513</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>149</bou_x>
+        <bou_y>279</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_name>Administracion Dorada</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>3519568335e6ffe5528adb4019799236</evn_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <pro_uid>8372942075e6ffdf4e54668064307357</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>1655417715e6ffe55293018089916305</bou_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>3519568335e6ffe5528adb4019799236</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>135</bou_x>
+        <bou_y>40</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>2259270925e6ffe553c3d30039590286</evn_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <pro_uid>8372942075e6ffdf4e54668064307357</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>4263266395e6ffe553ca508072815227</bou_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>2259270925e6ffe553c3d30039590286</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>547</bou_x>
+        <bou_y>40</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>4415777195ea745e2965491083124479</evn_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <pro_uid>8372942075e6ffdf4e54668064307357</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>4598289265ea745e296bd06032638931</bou_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>4415777195ea745e2965491083124479</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>546</bou_x>
+        <bou_y>269</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>5403589895e7a7b56587fc8029911621</evn_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <pro_uid>8372942075e6ffdf4e54668064307357</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>5852735685e7a7b5658ef44084054779</bou_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>5403589895e7a7b56587fc8029911621</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>538</bou_x>
+        <bou_y>141</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>9520876405e7a7b5643a3f3045480832</evn_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <pro_uid>8372942075e6ffdf4e54668064307357</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>6505949865e7a7b564422f6066995479</bou_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>9520876405e7a7b5643a3f3045480832</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>135</bou_x>
+        <bou_y>153</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>9667243645ea745e28601e2083472513</evn_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <pro_uid>8372942075e6ffdf4e54668064307357</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>7161647575ea745e28668b3079887853</bou_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <element_uid>9667243645ea745e28601e2083472513</element_uid>
+        <bou_element>7563928525ea7459fd12170041791633</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>149</bou_x>
+        <bou_y>279</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>1009232105eb482056bcd37004117659</flo_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>6668668835e7a7b55e62e16086487232</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>5403589895e7a7b56587fc8029911621</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>403</flo_x1>
+        <flo_y1>158</flo_y1>
+        <flo_x2>538</flo_x2>
+        <flo_y2>158</flo_y2>
+        <flo_state><![CDATA[[{"x":403,"y":158},{"x":538,"y":158}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>1360696305eb482056bcfa2010563371</flo_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>3519568335e6ffe5528adb4019799236</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>2222273275e6ffe55078582065824404</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>168</flo_x1>
+        <flo_y1>57</flo_y1>
+        <flo_x2>252</flo_x2>
+        <flo_y2>55</flo_y2>
+        <flo_state><![CDATA[[{"x":168,"y":57},{"x":210,"y":57},{"x":210,"y":55},{"x":252,"y":55}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>3505243275eb482056bcdc1077609384</flo_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>2222273275e6ffe55078582065824404</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>2259270925e6ffe553c3d30039590286</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>403</flo_x1>
+        <flo_y1>55</flo_y1>
+        <flo_x2>547</flo_x2>
+        <flo_y2>57</flo_y2>
+        <flo_state><![CDATA[[{"x":403,"y":55},{"x":475,"y":55},{"x":475,"y":57},{"x":547,"y":57}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>3722604165eb482056bcf02095159263</flo_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>9667243645ea745e28601e2083472513</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>2302759785ea745e184a404089570841</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>182</flo_x1>
+        <flo_y1>296</flo_y1>
+        <flo_x2>272</flo_x2>
+        <flo_y2>295</flo_y2>
+        <flo_state><![CDATA[[{"x":182,"y":296},{"x":227,"y":296},{"x":227,"y":295},{"x":272,"y":295}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>5791615805eb482056bce55017514549</flo_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>2302759785ea745e184a404089570841</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>4415777195ea745e2965491083124479</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>423</flo_x1>
+        <flo_y1>295</flo_y1>
+        <flo_x2>546</flo_x2>
+        <flo_y2>286</flo_y2>
+        <flo_state><![CDATA[[{"x":423,"y":295},{"x":484,"y":295},{"x":484,"y":286},{"x":546,"y":286}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>9656026705eb482056bcbc4074538807</flo_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>9520876405e7a7b5643a3f3045480832</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>6668668835e7a7b55e62e16086487232</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>168</flo_x1>
+        <flo_y1>170</flo_y1>
+        <flo_x2>252</flo_x2>
+        <flo_y2>158</flo_y2>
+        <flo_state><![CDATA[[{"x":168,"y":170},{"x":210,"y":170},{"x":210,"y":158},{"x":252,"y":158}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY"/>
+    <table name="LANE"/>
+    <table name="LANESET"/>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>8372942075e6ffdf4e54668064307357</pro_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <dia_uid>8586254275e6ffdf4dc7451010569903</dia_uid>
+        <pro_name>Administracion Dorada</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <prj_name>Administracion Dorada</prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2020-03-16 22:30:12]]></prj_create_date>
+        <prj_update_date><![CDATA[2020-05-07 21:47:49]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <pro_title>Administracion Dorada</pro_title>
+        <pro_description></pro_description>
+        <pro_parent>8324948215e6ffdf4c9b5e3096199562</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category>7234013095eb9672f307462040831329</pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2020-05-07 21:47:49]]></pro_update_date>
+        <pro_create_date><![CDATA[2020-05-07 21:47:49]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>1</pro_debug>
+        <pro_dynaforms><![CDATA[a:1:{s:7:"PROCESS";s:0:"";}]]></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost><![CDATA[$]]></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label>Health</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <tas_uid>6668668835e7a7b55e62e16086487232</tas_uid>
+        <tas_title><![CDATA[Número de Factura]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>4030273465eced959869d58007167790</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>252</tas_posx>
+        <tas_posy>120</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <tas_uid>2222273275e6ffe55078582065824404</tas_uid>
+        <tas_title>Registro Personal</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>4030273465eced959869d58007167790</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>252</tas_posx>
+        <tas_posy>17</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <tas_uid>2302759785ea745e184a404089570841</tas_uid>
+        <tas_title>Reportes</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>0</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>272</tas_posx>
+        <tas_posy>257</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>1780961545eb482057caec6040610568</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <tas_uid>6668668835e7a7b55e62e16086487232</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>1968207095eb482057e1cb6031362981</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <tas_uid>2222273275e6ffe55078582065824404</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>3305965245eb482057b3e12057415968</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <tas_uid>2302759785ea745e184a404089570841</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>4631222155e7a7b5d5b9446065987149</dyn_uid>
+        <dyn_title>FRM_FACTURA_NUMERO</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[8324948215e6ffdf4c9b5e3096199562/4631222155e7a7b5d5b9446065987149]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"FRM_FACTURA_NUMERO","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"4631222155e7a7b5d5b9446065987149","name":"FRM_FACTURA_NUMERO","description":"","mode":"edit","script":"","language":"en","externalLibs":"/assets/css/custom.css","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"MODIFICAR NÚMERO DE FACTURA","colSpan":12}],[{"type":"text","variable":"textVar9990012","var_uid":"8917683535e7a7b8f9290b6022248512","dataType":"string","protectedValue":false,"id":"textVar9990012","name":"textVar9990012","label":"Número actual","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"2126382775e7a7cc2525c90024134986","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select last_value from hlt_factura_consecutivo_factura_seq;","var_name":"textVar9990012","colSpan":6},{"type":"text","variable":"textVar9990013","var_uid":"1423727525e7a7b93acf6e2002967102","dataType":"string","protectedValue":false,"id":"textVar9990013","name":"textVar9990013","label":"Nuevo número de factura","defaultValue":"","placeholder":"","hint":"","required":true,"requiredFieldErrorMessage":"Por favor ingrese el número nuevo de facturación","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar9990013","colSpan":6}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Realizar Cambio","colSpan":12}]],"variables":[{"var_uid":"8917683535e7a7b8f9290b6022248512","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar9990012","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"1423727525e7a7b93acf6e2002967102","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar9990013","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2020-05-07 22:17:30]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>5984763225ea746d7ee7645082344630</dyn_uid>
+        <dyn_title>FRM_RIPS</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[8324948215e6ffdf4c9b5e3096199562/5984763225ea746d7ee7645082344630]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"FRM_RIPS","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"5984763225ea746d7ee7645082344630","name":"FRM_RIPS","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"REPORTE RIPS","colSpan":12}],[{"type":"label","id":"label0000000001","label":"Se listan las empresas con las cuales se han registrado contratos. Por favor seleccione la empresa a la cual desea generar el informe RIPS.","colSpan":12}],[{"type":"dropdown","variable":"dropdownVar999006","var_uid":"2258801355ea749fc8148f4027182736","dataType":"string","protectedValue":false,"id":"dropdownVar999006","name":"dropdownVar999006","label":"Empresa","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"2126382775e7a7cc2525c90024134986","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select a.cod_empresa,b.nombre from hlt_contratacion a left join hlt_empresa  b on a.cod_empresa=b.cod_empresa","dataVariable":"","options":[{"value":"0","label":"Seleccione"}],"var_name":"dropdownVar999006","colSpan":8},{"type":"dropdown","variable":"dropdownVar999007","var_uid":"1895891315ea750e7729e09078138223","dataType":"string","protectedValue":false,"id":"dropdownVar999007","name":"dropdownVar999007","label":"Contratos","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"2126382775e7a7cc2525c90024134986","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select consecutivo_contratacion,no_contrato from hlt_contratacion where cod_empresa = '@#dropdownVar999006' AND estado = '1'","dataVariable":"","options":[{"value":"0","label":"Seleccione"}],"var_name":"dropdownVar999007","colSpan":4}],[{"type":"title","id":"title0000000002","label":"Detalle de Contrato","colSpan":12}],[{"type":"text","variable":"textVar9990014","var_uid":"5205295085ea754c99a2d35015533102","dataType":"string","protectedValue":false,"id":"textVar9990014","name":"textVar9990014","label":"Tipo de Contrato","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"2126382775e7a7cc2525c90024134986","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select CASE cod_contrato WHEN '1' THEN 'Capítado' WHEN '2' THEN 'Por Evento' END from hlt_contratacion where consecutivo_contratacion = '@#dropdownVar999007'","var_name":"textVar9990014","colSpan":4},{"type":"text","variable":"textVar9990016","var_uid":"4859304875ea754dfc456c5099518286","dataType":"string","protectedValue":false,"id":"textVar9990016","name":"textVar9990016","label":"Fecha de Registro","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"2126382775e7a7cc2525c90024134986","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select fecha_registro from hlt_contratacion where consecutivo_contratacion = '@#dropdownVar999007'","var_name":"textVar9990016","colSpan":4},{"type":"text","variable":"textVar9990017","var_uid":"7220562885ea754ef662214079473495","dataType":"string","protectedValue":false,"id":"textVar9990017","name":"textVar9990017","label":"Valor","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"2126382775e7a7cc2525c90024134986","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select valor from hlt_contratacion where consecutivo_contratacion = '@#dropdownVar999007'","var_name":"textVar9990017","colSpan":4}],[{"type":"text","variable":"textVar9990018","var_uid":"5975717715ea7550a56dea8045466241","dataType":"string","protectedValue":false,"id":"textVar9990018","name":"textVar9990018","label":"Fecha de Inicio","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"2126382775e7a7cc2525c90024134986","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select fecha_inicio from hlt_contratacion where consecutivo_contratacion = '@#dropdownVar999007'","var_name":"textVar9990018","colSpan":4},{"type":"text","variable":"textVar9990019","var_uid":"6907045475ea75519f10397073826957","dataType":"string","protectedValue":false,"id":"textVar9990019","name":"textVar9990019","label":"Fecha de Fin","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"2126382775e7a7cc2525c90024134986","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select fecha_fin from hlt_contratacion where consecutivo_contratacion = '@#dropdownVar999007'","var_name":"textVar9990019","colSpan":4},{"colSpan":4}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Generar Reporte","colSpan":12}]],"variables":[{"var_uid":"2258801355ea749fc8148f4027182736","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"dropdownVar999006","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"1895891315ea750e7729e09078138223","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"dropdownVar999007","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"5205295085ea754c99a2d35015533102","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar9990014","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"4859304875ea754dfc456c5099518286","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar9990016","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"7220562885ea754ef662214079473495","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar9990017","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"5975717715ea7550a56dea8045466241","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar9990018","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"6907045475ea75519f10397073826957","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar9990019","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2020-04-27 22:51:23]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>9059573965e6fffcd467db3030329721</dyn_uid>
+        <dyn_title>FRM_REGISTRAR_PERSONAL</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[8324948215e6ffdf4c9b5e3096199562/9059573965e6fffcd467db3030329721]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"FRM_REGISTRAR_PERSONAL","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"9059573965e6fffcd467db3030329721","name":"FRM_REGISTRAR_PERSONAL","description":"","mode":"edit","script":{"type":"js","code":"registrar_personal();\n$(\"#dropdownVar999005\").setOnchange(registrar_personal);\n//Funcion que se ejecuta al cargar el dynaform\nfunction registrar_personal(){  \n  \n   var rol = $(\"#dropdownVar999005\").getValue();\n  //Validacion habilitar y deshabilitar \n    if(rol != \"Medico\"){\n\n      $(\"#dropdownVar999003\").getControl().attr(\"readOnly\", true);\n      $(\"#textVar9990011\").setValue(\"\");\n      $(\"#textVar9990011\").getControl().attr(\"readOnly\", true);\n      \n    }\n\n    else{\n       $(\"#dropdownVar999003\").getControl().attr(\"readOnly\", false);\n       $(\"#textVar9990011\").getControl().attr(\"readOnly\", false);\n\n    }\n\n}\n\n//Inicio Validacion Boton CONTINUAR\n  form = getFormById(\"9059573965e6fffcd467db3030329721\");\n  form.setOnSubmit(function(){\n  var rol = $(\"#dropdownVar999005\").getValue();\n\n  if (rol == \"Medico\" && $(\"#textVar9990011\").getValue() == \"\" ) {\n      {\n        alert(\"Por favor Diligencie el campo REGISTRO MEDICO\");\n        $(\"#textVar9990011\").getControl().focus();\n        return false;\n      }\n  }\n\n});"},"language":"en","externalLibs":"/assets/css/custom.css","printable":false,"items":[[{"type":"title","id":"title999001","label":"REGISTRO DE PROFESIONAL","colSpan":12}],[{"type":"subtitle","id":"subtitle999001","label":"INFORMACIÓN PERSONAL","colSpan":12}],[{"type":"dropdown","variable":"dropdownVar999001","var_uid":"4762678625e6fffd9dd3683097186078","dataType":"string","protectedValue":false,"id":"dropdownVar999001","name":"dropdownVar999001","label":"Tipo de Documento","defaultValue":"CC","placeholder":"","hint":"","required":true,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"select cod_documento,descripcion from PMT_HLT_DOCUMENTO","dataVariable":"","options":[],"var_name":"dropdownVar999001","colSpan":4},{"type":"text","variable":"textVar999001","var_uid":"6662639105e6fffda06e740060962852","dataType":"string","protectedValue":false,"id":"textVar999001","name":"textVar999001","label":"Documento","defaultValue":"","placeholder":"","hint":"","required":true,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^[0-9]{0,20}$","validateMessage":"Solo puede ingresar números. Máximo 20 dígitos.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar999001","colSpan":4},{"type":"datetime","variable":"datetimeVar999001","var_uid":"5325739025e6fffda1d0aa7081339048","dataType":"datetime","protectedValue":false,"id":"datetimeVar999001","name":"datetimeVar999001","label":"Fecha de Nacimiento","placeholder":"","hint":"","required":true,"requiredFieldErrorMessage":"","mode":"parent","format":"YYYY-MM-DD","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"","useCurrent":"false","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"datetimeVar999001","colSpan":4}],[{"type":"text","variable":"textVar999002","var_uid":"5614283205e6fffda2f6c99019851340","dataType":"string","protectedValue":false,"id":"textVar999002","name":"textVar999002","label":"Nombres","defaultValue":"","placeholder":"","hint":"","required":true,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"^[a-záéíóúüñA-ZÁÉÍÓÚÜÑ0-9\\s\\.\\-\\;\\,\\:\\%\\!\\@\\#\\$\\(\\)\\+\\=\\/\\¿\\?\\*\\{\\}]{0,50}$","validateMessage":"Solo puede ingresar letras números y los siguientes símbolos: !@#$%*(){}\\-+=/. Máximo 50 caracteres.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar999002","colSpan":6},{"type":"text","variable":"textVar999003","var_uid":"2852859495e6fffda45ef35089158786","dataType":"string","protectedValue":false,"id":"textVar999003","name":"textVar999003","label":"Apellidos","defaultValue":"","placeholder":"","hint":"","required":true,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"^[a-záéíóúüñA-ZÁÉÍÓÚÜÑ0-9\\s\\.\\-\\;\\,\\:\\%\\!\\@\\#\\$\\(\\)\\+\\=\\/\\¿\\?\\*\\{\\}]{0,50}$","validateMessage":"Solo puede ingresar letras números y los siguientes símbolos: !@#$%*(){}\\-+=/. Máximo 50 caracteres.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar999003","colSpan":6}],[{"type":"text","variable":"textVar999004","var_uid":"7932861405e6fffda58daa0027545268","dataType":"string","protectedValue":false,"id":"textVar999004","name":"textVar999004","label":"Teléfono","defaultValue":"","placeholder":"","hint":"","required":true,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^[0-9]{0,15}$","validateMessage":"Solo puede ingresar números. Máximo 15 dígitos.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar999004","colSpan":6},{"type":"text","variable":"textVar999005","var_uid":"3394578845e6fffda6df338091995067","dataType":"string","protectedValue":false,"id":"textVar999005","name":"textVar999005","label":"Celular","defaultValue":"","placeholder":"","hint":"","required":true,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^[0-9]{0,15}$","validateMessage":"Solo puede ingresar números. Máximo 15 dígitos.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar999005","colSpan":6}],[{"type":"text","variable":"textVar999006","var_uid":"2873199955e6fffda819f23037691266","dataType":"string","protectedValue":false,"id":"textVar999006","name":"textVar999006","label":"Dirección","defaultValue":"","placeholder":"","hint":"","required":true,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"^[a-záéíóúüñA-ZÁÉÍÓÚÜÑ0-9\\s\\.\\-\\;\\,\\:\\%\\!\\@\\#\\$\\(\\)\\+\\=\\/\\¿\\?\\*\\{\\}]{0,600}$","validateMessage":"Solo puede ingresar letras números y los siguientes símbolos: !@#$%*(){}\\-+=/. Máximo 600 caracteres.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar999006","colSpan":6},{"type":"text","variable":"textVar999007","var_uid":"5421793055e6fffda9831e3095086541","dataType":"string","protectedValue":false,"id":"textVar999007","name":"textVar999007","label":"E-Mail","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^[a-zA-Z0-9]+.?[a-zA-Z0-9]+@[a-zA-Z0-9]+.[a-zA-Z0-9]{2,4}$","validateMessage":"Error de formato de correo. Ejm.: carlos@gmail.com","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar999007","colSpan":6}],[{"type":"subtitle","id":"subtitle999002","label":"INFORMACIÓN DE CONTACTO DE EMERGENCIA","colSpan":12}],[{"type":"text","variable":"textVar999008","var_uid":"4629168715e6fffdaaca4a6012432265","dataType":"string","protectedValue":false,"id":"textVar999008","name":"textVar999008","label":"Nombre de Contacto","defaultValue":"","placeholder":"","hint":"","required":true,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"^[a-záéíóúüñA-ZÁÉÍÓÚÜÑ0-9\\s\\.\\-\\;\\,\\:\\%\\!\\@\\#\\$\\(\\)\\+\\=\\/\\¿\\?\\*\\{\\}]{0,80}$","validateMessage":"Solo puede ingresar letras números y los siguientes símbolos: !@#$%*(){}\\-+=/. Máximo 80 caracteres.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar999008","colSpan":7},{"type":"dropdown","variable":"dropdownVar999002","var_uid":"9243238875e6fffdac15268038226783","dataType":"string","protectedValue":false,"id":"dropdownVar999002","name":"dropdownVar999002","label":"Parentezco","defaultValue":"9","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"select codigo,descripcion from PMT_HLT_PARENTEZCO","dataVariable":"","options":[],"var_name":"dropdownVar999002","colSpan":5}],[{"type":"text","variable":"textVar999009","var_uid":"2441730755e6fffdad415a7061067078","dataType":"string","protectedValue":false,"id":"textVar999009","name":"textVar999009","label":"Dirección","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"^[a-záéíóúüñA-ZÁÉÍÓÚÜÑ0-9\\s\\.\\-\\;\\,\\:\\%\\!\\@\\#\\$\\(\\)\\+\\=\\/\\¿\\?\\*\\{\\}]{0,600}$","validateMessage":"Solo puede ingresar letras números y los siguientes símbolos: !@#$%*(){}\\-+=/. Máximo 600 caracteres.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar999009","colSpan":7},{"type":"text","variable":"textVar9990010","var_uid":"1998054185e6fffdaea6993093380053","dataType":"string","protectedValue":false,"id":"textVar9990010","name":"textVar9990010","label":"Teléfono/Celular","defaultValue":"","placeholder":"","hint":"","required":true,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^[0-9]{0,15}$","validateMessage":"Solo puede ingresar números. Máximo 15 dígitos.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar9990010","colSpan":5}],[{"type":"subtitle","id":"subtitle6003","label":"INFORMACIÓN PROFESIONAL","colSpan":12}],[{"type":"dropdown","variable":"dropdownVar999005","var_uid":"9317715225e7026b20541a1053843359","dataType":"string","protectedValue":false,"id":"dropdownVar999005","name":"dropdownVar999005","label":"Rol","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[{"value":"Medico","label":"Medico"},{"value":"Enfermera","label":"Enfermera"},{"value":"Facturador","label":"Facturador"},{"value":"Laboratorista","label":"Laboratorista"},{"value":"Regente","label":"Regente en Farmacia"},{"value":"Administrativo","label":"Administrativo"},{"value":"Secretaria","label":"Secretaria"}],"var_name":"dropdownVar999005","colSpan":4},{"type":"dropdown","variable":"dropdownVar999003","var_uid":"2422644395e6fffdb0a4b43030141342","dataType":"string","protectedValue":false,"id":"dropdownVar999003","name":"dropdownVar999003","label":"Especialidad","defaultValue":"17","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"select codigo,descripcion from PMT_HLT_ESPECIALIDAD","dataVariable":"","options":[],"var_name":"dropdownVar999003","colSpan":4},{"type":"text","variable":"textVar9990011","var_uid":"1574096845e6fffdb1e4b84052949138","dataType":"string","protectedValue":false,"id":"textVar9990011","name":"textVar9990011","label":"Registro Médico","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"^[a-záéíóúüñA-ZÁÉÍÓÚÜÑ0-9\\s\\.\\-\\;\\,\\:\\%\\!\\@\\#\\$\\(\\)\\+\\=\\/\\¿\\?\\*\\{\\}]{0,80}$","validateMessage":"Solo puede ingresar letras números y los siguientes símbolos: !@#$%*(){}\\-+=/. Máximo 80 caracteres.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar9990011","colSpan":4}],[{"type":"multipleFile","variable":"multipleFileVar999001","var_uid":"8343732205e6fffdb3ad6b7017233611","dataType":"multiplefile","protectedValue":false,"id":"multipleFileVar999001","name":"multipleFileVar999001","label":"Firma Digital","inputDocument":"","required":true,"requiredFieldErrorMessage":"El Formato de imagen de la firma debe ser .PNG","dnd":false,"extensions":"*.png","size":1024,"sizeUnity":"KB","enableVersioning":false,"mode":"parent","multiple":false,"inp_doc_uid":"","var_name":"multipleFileVar999001","colSpan":6},{"type":"multipleFile","variable":"multipleFileVar999002","var_uid":"8676545965e6fffdb524570026297779","dataType":"multiplefile","protectedValue":false,"id":"multipleFileVar999002","name":"multipleFileVar999002","label":"Sello Digital","inputDocument":"","required":false,"requiredFieldErrorMessage":"","dnd":false,"extensions":"*.png","size":1024,"sizeUnity":"KB","enableVersioning":false,"mode":"parent","multiple":false,"inp_doc_uid":"","var_name":"multipleFileVar999002","colSpan":6}],[{"type":"suggest","variable":"suggestVar001","var_uid":"8639327735e94d49786d6c2018829922","dataType":"string","protectedValue":false,"id":"suggestVar001","name":"suggestVar001","label":"","defaultValue":"","placeholder":"Nota: Las imágenes para la Firma Digital y el Sello Digital deben estar en formato .PNG","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"disabled","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[],"delay":0,"var_name":"suggestVar001","colSpan":12}],[{"type":"submit","id":"submit999001","name":"submit999001","label":"Registrar Profesional","colSpan":6},{"type":"button","id":"button999001","name":"button999001","label":"Cancelar Registro","colSpan":6}]],"variables":[{"var_uid":"4762678625e6fffd9dd3683097186078","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"dropdownVar999001","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"9840961165e6a7b503c26e7080908202","var_name_old":"dropdownVar999001","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"6662639105e6fffda06e740060962852","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar999001","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"5147666125e6a7b503c58f5002087305","var_name_old":"textVar999001","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"5325739025e6fffda1d0aa7081339048","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"datetimeVar999001","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8135308405e6a7b503972e8066558855","var_name_old":"datetimeVar999001","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"5614283205e6fffda2f6c99019851340","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar999002","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4115702625e6a7b5042eca9018480858","var_name_old":"textVar999002","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"2852859495e6fffda45ef35089158786","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar999003","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7235985325e6a7b50447ab7061449329","var_name_old":"textVar999003","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"7932861405e6fffda58daa0027545268","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar999004","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1871713295e6a7b503fc431002071594","var_name_old":"textVar999004","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"3394578845e6fffda6df338091995067","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar999005","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"9547207455e6a7b5036da24063848224","var_name_old":"textVar999005","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"2873199955e6fffda819f23037691266","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar999006","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1145828755e6a7b50428bf3086947476","var_name_old":"textVar999006","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"5421793055e6fffda9831e3095086541","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar999007","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2193518695e6a7b50383a97082974239","var_name_old":"textVar999007","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"4629168715e6fffdaaca4a6012432265","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar999008","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"3496214055e6a7b503c73d5019645910","var_name_old":"textVar999008","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"9243238875e6fffdac15268038226783","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"dropdownVar999002","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4489141005e6a7b50369af1062797571","var_name_old":"dropdownVar999002","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"2441730755e6fffdad415a7061067078","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar999009","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2330144015e6a7b503b02a9096166648","var_name_old":"textVar999009","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"1998054185e6fffdaea6993093380053","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar9990010","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6385874105e6a7b503b4790035395713","var_name_old":"textVar9990010","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"9317715225e7026b20541a1053843359","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"dropdownVar999005","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"2422644395e6fffdb0a4b43030141342","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"dropdownVar999003","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1887324565e6a7b50444897077385668","var_name_old":"dropdownVar999003","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"1574096845e6fffdb1e4b84052949138","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"textVar9990011","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1168205365e6a7b50393827013929557","var_name_old":"textVar9990011","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"8343732205e6fffdb3ad6b7017233611","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"multipleFileVar999001","var_field_type":"multiplefile","var_field_size":10,"var_label":"multiplefile","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"3558085425e6a7b503c4009066499670","var_name_old":"multipleFileVar999001","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"8676545965e6fffdb524570026297779","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"multipleFileVar999002","var_field_type":"multiplefile","var_field_size":10,"var_label":"multiplefile","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"5988525515e6a7b504307c1089590304","var_name_old":"multipleFileVar999002","prj_uid_old":"8806544755e3b339bb937e0095815006"},{"var_uid":"8639327735e94d49786d6c2018829922","prj_uid":"8324948215e6ffdf4c9b5e3096199562","var_name":"suggestVar001","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2020-09-03 17:51:47]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>5055510755e7a7cda6862a7046393163</step_uid>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <tas_uid>6668668835e7a7b55e62e16086487232</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>4631222155e7a7b5d5b9446065987149</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>5840423175e7025f37eb306070152977</step_uid>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <tas_uid>2222273275e6ffe55078582065824404</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>9059573965e6fffcd467db3030329721</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>2172349195ebdd27ac40d74024019799</tri_uid>
+        <tri_title>TGG_EMAIL_BIENVENIDA_USUARIOS</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$usr = userInfo(@@USER_LOGGED);
+
+$to = @@textVar999007;
+
+if($to != ''){
+	PMFSendMessage(@@APPLICATION, 'ipsdorada@gmail.com', $to, '', 'ipsdorada@gmail.com, ipsdorada@gmail.com',
+   'Bienvenido(a) a Nuestro Equipo', 'welcomeUsers.html');
+}]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>2491241175e7025a89e4fe7068878750</tri_uid>
+        <tri_title>TGG_REG_PERSONAL</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$cod_documento    =  @@dropdownVar999001;
+$documento        =  @@textVar999001;
+$nom_1           =  @@textVar999002;
+$apel_1            =  @@textVar999003;
+$fecha_nac        =  @@datetimeVar999001;
+$direccion        =  @@textVar999006;
+$celular          =  @@textVar999005;
+$email            =  @@textVar999007;
+//////////////////////////////////////////////////////////////////
+$contacto         =  @@textVar999008;
+$tel_contacto     =  @@textVar9990010;
+$dir_contacto     =  @@textVar999009;
+$cod_parentezco   =  @@dropdownVar999002;
+//////////////////////////////////////////////////////////////////
+$rol              =  @@dropdownVar999005;
+$especialidad     =  @@dropdownVar999003;
+$reg_medico       =  @@textVar9990011;
+
+//////////AQUI CREA EL USUARIO//////////////////////////////////////////
+@@user_crear =  "doc:".$documento. '12345'. "-nom:".$nom_1. "-apel:".$apel_1. "-email:".$email. "-rol:".$rol;
+$var = PMFCreateUser($documento,'12345',$nom_1,$apel_1,$email,$rol,'2021-12-31','ACTIVE');
+if ($var == 0)
+    @@result = 'not created';
+else
+    @@result = 'created';
+//////////BUSQUEDA E INSERCION DEL RESTO DE CAMPOS////////////////////
+$query = "SELECT USR_UID FROM USERS WHERE USR_USERNAME = '$documento'";
+$res = executeQuery($query);
+$usr_uid = $res[1]['USR_UID'];
+
+$result = executeQuery("INSERT PMT_HLT_PROFESIONAL (USR_UID, COD_DOCUMENTO, DOCUMENTO, ESPECIALIDAD, REGISTRO_MEDICO, CONTACTO, TELEFONO_CONTACTO, DIRECCION_CONTACTO, PARENTEZCO) 
+    	VALUES ('$usr_uid', '$cod_documento','$documento ', '$especialidad ', '$reg_medico','$contacto','$tel_contacto', '$dir_contacto', '$cod_parentezco')");
+    
+//////////////////Solicita Cambio de Contraseña/////////////////////////////
+$result = executeQuery("INSERT INTO USERS_PROPERTIES(USR_UID,USR_LOGGED_NEXT_TIME) VALUES('$usr_uid','1');");
+
+
+//firmas____________________________________________________________________________________________
+if (isset(@=multipleFileVar999001) and !empty(@=multipleFileVar999001)) {
+	$el_resto = @=multipleFileVar999001[0]['appDocUid'] . "_1.png";
+
+	$caso = @@APPLICATION;
+	$direccion_srv = "mv /var/www/html/dorada/shared/sites/dorada/files/";
+	$direccion_srv .= substr($caso, 0, 3)."/";
+	$direccion_srv .= substr($caso, 3, 3)."/";
+	$direccion_srv .= substr($caso, 6, 3)."/";
+	$direccion_srv .= substr($caso, 9, 23)."/";
+	$direccion_srv .= $el_resto;
+
+	$direccion_srv .= " /var/www/html/dorada/workflow/public_html/firmas/".$usr_uid.".png";
+
+	shell_exec($direccion_srv);
+}
+
+//sellos____________________________________________________________________________________________
+if (isset(@=multipleFileVar999002) and !empty(@=multipleFileVar999002)){
+	$el_resto_sello = @=multipleFileVar999002[0]['appDocUid'] . "_1.png";
+
+	$caso = @@APPLICATION;
+	$direccion_srv = "mv /var/www/html/dorada/shared/sites/dorada/files/";
+	$direccion_srv .= substr($caso, 0, 3)."/";
+	$direccion_srv .= substr($caso, 3, 3)."/";
+	$direccion_srv .= substr($caso, 6, 3)."/";
+	$direccion_srv .= substr($caso, 9, 23)."/";
+	$direccion_srv .= $el_resto_sello;
+
+	$direccion_srv .= " /var/www/html/dorada/workflow/public_html/sellos/".$usr_uid.".png";
+
+	shell_exec($direccion_srv);   
+}	
+
+//Asignar usuario a grupo correspondiente
+
+if($rol == "Medico"){
+	$GroupUID = "16202537956f71925e83ca6097156696";
+}
+else if($rol == "Enfermera"){
+	$GroupUID = "78521414856f7192b7abac8020533132";
+}
+else if($rol == "Facturador"){
+	$GroupUID = "89055533856f719332ec207016082791";
+}
+else if($rol == "Laboratorista"){
+	$GroupUID = "5807445655e744ac9c3bc77012809695";
+}
+else if($rol == "Regente"){
+	$GroupUID = "7446326335e744a8a1c0bf4057588500";
+}
+else if($rol == "Administrativo"){
+	$GroupUID = "8359538545e744a6c504877004933149";
+}
+else if($rol == "Secretaria"){
+	$GroupUID = "28297458556f71d7ad8f166002753488";
+}
+
+PMFAssignUserToGroup($usr_uid, $GroupUID);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>9878460145e94d2a9c99ef0078271053</tri_uid>
+        <tri_title>TGG_FACTURA</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$fac = (int) @@textVar9990013;
+
+$query = "ALTER SEQUENCE hlt_factura_consecutivo_factura_seq RESTART WITH $fac";
+$res = executeQuery($query,'2126382775e7a7cc2525c90024134986');]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+    </table>
+    <table name="taskusers">
+      <record>
+        <tas_uid>2222273275e6ffe55078582065824404</tas_uid>
+        <usr_uid>8359538545e744a6c504877004933149</usr_uid>
+        <tu_type>1</tu_type>
+        <tu_relation>2</tu_relation>
+      </record>
+      <record>
+        <tas_uid>6668668835e7a7b55e62e16086487232</tas_uid>
+        <usr_uid>8359538545e744a6c504877004933149</usr_uid>
+        <tu_type>1</tu_type>
+        <tu_relation>2</tu_relation>
+      </record>
+    </table>
+    <table name="groupwfs">
+      <record>
+        <grp_uid>8359538545e744a6c504877004933149</grp_uid>
+        <grp_title>Administrativo</grp_title>
+        <grp_status>ACTIVE</grp_status>
+        <grp_ldap_dn></grp_ldap_dn>
+        <grp_ux>NORMAL</grp_ux>
+      </record>
+    </table>
+    <table name="steptriggers">
+      <record>
+        <step_uid>5055510755e7a7cda6862a7046393163</step_uid>
+        <tas_uid>6668668835e7a7b55e62e16086487232</tas_uid>
+        <tri_uid>9878460145e94d2a9c99ef0078271053</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>5840423175e7025f37eb306070152977</step_uid>
+        <tas_uid>2222273275e6ffe55078582065824404</tas_uid>
+        <tri_uid>2172349195ebdd27ac40d74024019799</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>2</st_position>
+      </record>
+      <record>
+        <step_uid>5840423175e7025f37eb306070152977</step_uid>
+        <tas_uid>2222273275e6ffe55078582065824404</tas_uid>
+        <tri_uid>2491241175e7025a89e4fe7068878750</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections">
+      <record>
+        <dbs_uid>2126382775e7a7cc2525c90024134986</dbs_uid>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <dbs_type>pgsql</dbs_type>
+        <dbs_server>localhost</dbs_server>
+        <dbs_database_name>dorada</dbs_database_name>
+        <dbs_username>postgres</dbs_username>
+        <dbs_password>xMXh08vTkpai_2NnV3ujj3w</dbs_password>
+        <dbs_port>5432</dbs_port>
+        <dbs_encode>UTF8</dbs_encode>
+        <dbs_connection_type>NORMAL</dbs_connection_type>
+        <dbs_tns></dbs_tns>
+        <dbs_description></dbs_description>
+      </record>
+    </table>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory">
+      <record>
+        <category_uid>7234013095eb9672f307462040831329</category_uid>
+        <category_parent>0</category_parent>
+        <category_name>Health</category_name>
+        <category_icon></category_icon>
+      </record>
+    </table>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>1292181055ea754cf4d6218078030870</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar9990015</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>1423727525e7a7b93acf6e2002967102</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar9990013</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>1574096845e6fffdb1e4b84052949138</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar9990011</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>1895891315ea750e7729e09078138223</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>dropdownVar999007</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>1998054185e6fffdaea6993093380053</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar9990010</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2258801355ea749fc8148f4027182736</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>dropdownVar999006</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2422644395e6fffdb0a4b43030141342</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>dropdownVar999003</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2441730755e6fffdad415a7061067078</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar999009</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2852859495e6fffda45ef35089158786</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar999003</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2873199955e6fffda819f23037691266</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar999006</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3394578845e6fffda6df338091995067</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar999005</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4629168715e6fffdaaca4a6012432265</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar999008</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4762678625e6fffd9dd3683097186078</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>dropdownVar999001</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4859304875ea754dfc456c5099518286</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar9990016</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5036482925e94d446d23258058250286</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>hiddenVar001</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5205295085ea754c99a2d35015533102</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar9990014</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5325739025e6fffda1d0aa7081339048</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>datetimeVar999001</var_name>
+        <var_field_type>datetime</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>datetime</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5421793055e6fffda9831e3095086541</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar999007</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5470236175e702336be42e4092859649</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>dropdownVar999004</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5614283205e6fffda2f6c99019851340</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar999002</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5975717715ea7550a56dea8045466241</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar9990018</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6662639105e6fffda06e740060962852</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar999001</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6907045475ea75519f10397073826957</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar9990019</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7220562885ea754ef662214079473495</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar9990017</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7932861405e6fffda58daa0027545268</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar999004</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8343732205e6fffdb3ad6b7017233611</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>multipleFileVar999001</var_name>
+        <var_field_type>multiplefile</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>multiplefile</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8639327735e94d49786d6c2018829922</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>suggestVar001</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8676545965e6fffdb524570026297779</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>multipleFileVar999002</var_name>
+        <var_field_type>multiplefile</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>multiplefile</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8917683535e7a7b8f9290b6022248512</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>textVar9990012</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9243238875e6fffdac15268038226783</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>dropdownVar999002</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9317715225e7026b20541a1053843359</var_uid>
+        <prj_uid>8324948215e6ffdf4c9b5e3096199562</prj_uid>
+        <var_name>dropdownVar999005</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager">
+      <record>
+        <prf_uid>7237804205ebdc8dac29d24020198744</prf_uid>
+        <pro_uid>8324948215e6ffdf4c9b5e3096199562</pro_uid>
+        <usr_uid>00000000000000000000000000000001</usr_uid>
+        <prf_update_usr_uid>00000000000000000000000000000001</prf_update_usr_uid>
+        <prf_path><![CDATA[/var/www/html/dorada/shared/sites/dorada/mailTemplates/8324948215e6ffdf4c9b5e3096199562/welcomeUsers.html]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>1</prf_editable>
+        <prf_create_date><![CDATA[2020-05-14 22:40:26]]></prf_create_date>
+        <prf_update_date><![CDATA[2020-05-14 22:40:49]]></prf_update_date>
+      </record>
+    </table>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>FRM_FACTURA_NUMERO</file_name>
+      <file_path><![CDATA[8324948215e6ffdf4c9b5e3096199562/4631222155e7a7b5d5b9446065987149.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjgzMjQ5NDgyMTVlNmZmZGY0YzliNWUzMDk2MTk5NTYyLzQ2MzEyMjIxNTVlN2E3YjVkNWI5NDQ2MDY1OTg3MTQ5IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>FRM_RIPS</file_name>
+      <file_path><![CDATA[8324948215e6ffdf4c9b5e3096199562/5984763225ea746d7ee7645082344630.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjgzMjQ5NDgyMTVlNmZmZGY0YzliNWUzMDk2MTk5NTYyLzU5ODQ3NjMyMjVlYTc0NmQ3ZWU3NjQ1MDgyMzQ0NjMwIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>FRM_REGISTRAR_PERSONAL</file_name>
+      <file_path><![CDATA[8324948215e6ffdf4c9b5e3096199562/9059573965e6fffcd467db3030329721.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjgzMjQ5NDgyMTVlNmZmZGY0YzliNWUzMDk2MTk5NTYyLzkwNTk1NzM5NjVlNmZmZmNkNDY3ZGIzMDMwMzI5NzIxIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="templates">
+      <file_name>welcomeUsers.html</file_name>
+      <file_path><![CDATA[8324948215e6ffdf4c9b5e3096199562/welcomeUsers.html]]></file_path>
+      <file_content><![CDATA[PCFET0NUWVBFIGh0bWwgUFVCTElDICItLy9XM0MvL0RURCBYSFRNTCAxLjAgVHJhbnNpdGlvbmFsLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL3hodG1sMS9EVEQveGh0bWwxLXRyYW5zaXRpb25hbC5kdGQiPgo8aHRtbCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCIgeG1sbnM6dj0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp2bWwiIHhtbG5zOm89InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206b2ZmaWNlOm9mZmljZSI+CjxoZWFkPgoJPCEtLVtpZiBndGUgbXNvIDldPgoJPHhtbD4KCQk8bzpPZmZpY2VEb2N1bWVudFNldHRpbmdzPgoJCTxvOkFsbG93UE5HLz4KCQk8bzpQaXhlbHNQZXJJbmNoPjk2PC9vOlBpeGVsc1BlckluY2g+CgkJPC9vOk9mZmljZURvY3VtZW50U2V0dGluZ3M+Cgk8L3htbD4KCTwhW2VuZGlmXS0tPgoJPG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC10eXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgiIC8+Cgk8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEsIG1heGltdW0tc2NhbGU9MSIgLz4KICAgIDxtZXRhIGh0dHAtZXF1aXY9IlgtVUEtQ29tcGF0aWJsZSIgY29udGVudD0iSUU9ZWRnZSIgLz4KCTxtZXRhIG5hbWU9ImZvcm1hdC1kZXRlY3Rpb24iIGNvbnRlbnQ9ImRhdGU9bm8iIC8+Cgk8bWV0YSBuYW1lPSJmb3JtYXQtZGV0ZWN0aW9uIiBjb250ZW50PSJhZGRyZXNzPW5vIiAvPgoJPG1ldGEgbmFtZT0iZm9ybWF0LWRldGVjdGlvbiIgY29udGVudD0idGVsZXBob25lPW5vIiAvPgoJPG1ldGEgbmFtZT0ieC1hcHBsZS1kaXNhYmxlLW1lc3NhZ2UtcmVmb3JtYXR0aW5nIiAvPgogICAgPCEtLVtpZiAhbXNvXT48IS0tPgogICAJPGxpbmsgaHJlZj0iaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PVF1aWNrc2FuZDo0MDAsNDAwaSw3MDAsNzAwaXxCYXJsb3crQ29uZGVuc2VkOjQwMCw0MDBpLDcwMCw3MDBpIiByZWw9InN0eWxlc2hlZXQiLz4KICAgIDwhLS08IVtlbmRpZl0tLT4KCTx0aXRsZT5IZWFsdGggLSBJUFMgRG9yYWRhPC90aXRsZT4KCTwhLS1baWYgZ3RlIG1zbyA5XT4KCTxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyIgbWVkaWE9ImFsbCI+CgkJc3VwIHsgZm9udC1zaXplOiAxMDAlICFpbXBvcnRhbnQ7IH0KCTwvc3R5bGU+Cgk8IVtlbmRpZl0tLT4KCQoKCTxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyIgbWVkaWE9InNjcmVlbiI+CgkJLyogTGlua2VkIFN0eWxlcyAqLwoJCWJvZHkgeyBwYWRkaW5nOjAgIWltcG9ydGFudDsgbWFyZ2luOjAgIWltcG9ydGFudDsgZGlzcGxheTpibG9jayAhaW1wb3J0YW50OyBtaW4td2lkdGg6MTAwJSAhaW1wb3J0YW50OyB3aWR0aDoxMDAlICFpbXBvcnRhbnQ7IGJhY2tncm91bmQ6I2ZmZmZmZjsgLXdlYmtpdC10ZXh0LXNpemUtYWRqdXN0Om5vbmUgfQoJCWEgeyBjb2xvcjojZDg1ZDVjOyB0ZXh0LWRlY29yYXRpb246bm9uZSB9CgkJcCB7IHBhZGRpbmc6MCAhaW1wb3J0YW50OyBtYXJnaW46MCAhaW1wb3J0YW50IH0gCgkJaW1nIHsgLW1zLWludGVycG9sYXRpb24tbW9kZTogYmljdWJpYzsgLyogQWxsb3cgc21vb3RoZXIgcmVuZGVyaW5nIG9mIHJlc2l6ZWQgaW1hZ2UgaW4gSW50ZXJuZXQgRXhwbG9yZXIgKi8gfQoJCS5tY25QcmV2aWV3VGV4dCB7IGRpc3BsYXk6IG5vbmUgIWltcG9ydGFudDsgfQoJCQoJCS8qIE1vYmlsZSBzdHlsZXMgKi8KCQlAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtZGV2aWNlLXdpZHRoOiA0ODBweCksIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA0ODBweCkgewoJCQkubW9iaWxlLXNoZWxsIHsgd2lkdGg6IDEwMCUgIWltcG9ydGFudDsgbWluLXdpZHRoOiAxMDAlICFpbXBvcnRhbnQ7IH0KCQkJCgkJCS5tLWNlbnRlciB7IHRleHQtYWxpZ246IGNlbnRlciAhaW1wb3J0YW50OyB9CgkJCS5tLWxlZnQgeyB0ZXh0LWFsaWduOiBsZWZ0ICFpbXBvcnRhbnQ7IH0KCQkJCgkJCS5jZW50ZXIgeyBtYXJnaW46IDAgYXV0byAhaW1wb3J0YW50OyB9CgkJCS5sZWZ0IHsgbWFyZ2luLXJpZ2h0OiBhdXRvICFpbXBvcnRhbnQ7IH0KCQkJCgkJCS50ZCB7IHdpZHRoOiAxMDAlICFpbXBvcnRhbnQ7IG1pbi13aWR0aDogMTAwJSAhaW1wb3J0YW50OyB9CgoJCQkubS1ici01IHsgaGVpZ2h0OiA1cHggIWltcG9ydGFudDsgfQoJCQkubS1ici0xMCB7IGhlaWdodDogMTBweCAhaW1wb3J0YW50OyB9CgkJCS5tLWJyLTE1IHsgaGVpZ2h0OiAxNXB4ICFpbXBvcnRhbnQ7IH0KCQkJLm0tYnItMzAgeyBoZWlnaHQ6IDMwcHggIWltcG9ydGFudDsgfQoKCQkJLm0tdGQsCgkJCS5tLWhpZGUgeyBkaXNwbGF5OiBub25lICFpbXBvcnRhbnQ7IHdpZHRoOiAwICFpbXBvcnRhbnQ7IGhlaWdodDogMCAhaW1wb3J0YW50OyBmb250LXNpemU6IDAgIWltcG9ydGFudDsgbGluZS1oZWlnaHQ6IDAgIWltcG9ydGFudDsgbWluLWhlaWdodDogMCAhaW1wb3J0YW50OyB9CgoJCQkubS1ibG9jayB7IGRpc3BsYXk6IGJsb2NrICFpbXBvcnRhbnQ7IH0KCgkJCS5mbHVpZC1pbWcgaW1nIHsgd2lkdGg6IDEwMCUgIWltcG9ydGFudDsgbWF4LXdpZHRoOiAxMDAlICFpbXBvcnRhbnQ7IGhlaWdodDogYXV0byAhaW1wb3J0YW50OyB9CgoJCQkuY29sdW1uLXRvcCwKCQkJLmNvbHVtbiB7IGZsb2F0OiBsZWZ0ICFpbXBvcnRhbnQ7IHdpZHRoOiAxMDAlICFpbXBvcnRhbnQ7IGRpc3BsYXk6IGJsb2NrICFpbXBvcnRhbnQ7IH0KCgkJCS5jb250ZW50LXNwYWNpbmcgeyB3aWR0aDogMTVweCAhaW1wb3J0YW50OyB9CgoJCQkubS1iZyB7IGRpc3BsYXk6IGJsb2NrICFpbXBvcnRhbnQ7IHdpZHRoOiAxMDAlICFpbXBvcnRhbnQ7IGhlaWdodDogYXV0byAhaW1wb3J0YW50OyBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXIgY2VudGVyICFpbXBvcnRhbnQ7IH0KCgkJCS5oLWF1dG8geyBoZWlnaHQ6IGF1dG8gIWltcG9ydGFudDsgfQoKCQkJLnB0Yi0wIHsgcGFkZGluZy10b3A6IDBweCAhaW1wb3J0YW50OyBwYWRkaW5nLWJvdHRvbTogMHB4ICFpbXBvcnRhbnQ7IH0KCQkJLnB0Yi0xNSB7IHBhZGRpbmctdG9wOiAxNXB4ICFpbXBvcnRhbnQ7IHBhZGRpbmctYm90dG9tOiAxNXB4ICFpbXBvcnRhbnQ7IH0KCQkJLnB0Yi0yNSB7IHBhZGRpbmctdG9wOiAyNXB4ICFpbXBvcnRhbnQ7IHBhZGRpbmctYm90dG9tOiAyNXB4ICFpbXBvcnRhbnQ7IH0KCQkJLnBsci01IHsgcGFkZGluZy1sZWZ0OiA1cHggIWltcG9ydGFudDsgcGFkZGluZy1yaWdodDogNXB4ICFpbXBvcnRhbnQ7IH0KCQkJLnBsci0xNSB7IHBhZGRpbmctbGVmdDogMTVweCAhaW1wb3J0YW50OyBwYWRkaW5nLXJpZ2h0OiAxNXB4ICFpbXBvcnRhbnQ7IH0KCQkJLnBsci0wIHsgcGFkZGluZy1sZWZ0OiAwcHggIWltcG9ydGFudDsgcGFkZGluZy1yaWdodDogMHB4ICFpbXBvcnRhbnQ7IH0KCQkJLnBiLTI1IHsgcGFkZGluZy1ib3R0b206IDI1cHggIWltcG9ydGFudDsgfQoJCQkucHQtMjUgeyBwYWRkaW5nLXRvcDogMjVweCAhaW1wb3J0YW50OyB9CgoJCQkucC0yNS0xNSB7IHBhZGRpbmc6IDI1cHggMTVweCAhaW1wb3J0YW50OyB9CgkJfQoJPC9zdHlsZT4KPC9oZWFkPgo8Ym9keSBjbGFzcz0iYm9keSIgc3R5bGU9InBhZGRpbmc6MCAhaW1wb3J0YW50OyBtYXJnaW46MCAhaW1wb3J0YW50OyBkaXNwbGF5OmJsb2NrICFpbXBvcnRhbnQ7IG1pbi13aWR0aDoxMDAlICFpbXBvcnRhbnQ7IHdpZHRoOjEwMCUgIWltcG9ydGFudDsgYmFja2dyb3VuZDojZmZmZmZmOyAtd2Via2l0LXRleHQtc2l6ZS1hZGp1c3Q6bm9uZTsiPgo8dGFibGUgYm9yZGVyPSIwIiBjZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiIGJnY29sb3I9IiNmZmZmZmYiIHN0eWxlPSJ3aWR0aDogMTAwJTsiPgo8dGJvZHk+Cjx0cj4KPHRkIGFsaWduPSJjZW50ZXIiIHZhbGlnbj0idG9wIj48IS0tIFRvcCAtLT4KPHRhYmxlIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIiBiZ2NvbG9yPSIjZWRlZGVkIiBzdHlsZT0id2lkdGg6IDEwMCU7Ij4KPHRib2R5Pgo8dHI+Cjx0ZCBhbGlnbj0iY2VudGVyIiB2YWxpZ249InRvcCI+Cjx0YWJsZSBib3JkZXI9IjAiIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMCIgY2xhc3M9Im1vYmlsZS1zaGVsbCIgc3R5bGU9IndpZHRoOiA2NTBweDsiPgo8dGJvZHk+Cjx0cj4KPHRkIGNsYXNzPSJ0ZCIgc3R5bGU9IndpZHRoOiA2NTBweDsgbWluLXdpZHRoOiA2NTBweDsgZm9udC1zaXplOiAwcHQ7IGxpbmUtaGVpZ2h0OiAwcHQ7IHBhZGRpbmc6IDA7IG1hcmdpbjogMDsgZm9udC13ZWlnaHQ6IG5vcm1hbDsiPjwvdGQ+CjwvdHI+CjwvdGJvZHk+CjwvdGFibGU+CjwvdGQ+CjwvdHI+CjwvdGJvZHk+CjwvdGFibGU+CjwhLS0gRU5EIFRvcCAtLT4gPCEtLSBIZWFkZXIgLS0+Cjx0YWJsZSBib3JkZXI9IjAiIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMCIgYmdjb2xvcj0iI2ZmZmZmZiIgc3R5bGU9IndpZHRoOiAxMDAlOyI+Cjx0Ym9keT4KPHRyPgo8dGQgYWxpZ249ImNlbnRlciIgdmFsaWduPSJ0b3AiPgo8dGFibGUgYm9yZGVyPSIwIiBjZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiIGNsYXNzPSJtb2JpbGUtc2hlbGwiIHN0eWxlPSJ3aWR0aDogNjUwcHg7Ij4KPHRib2R5Pgo8dHI+Cjx0ZCBjbGFzcz0idGQiIHN0eWxlPSJ3aWR0aDogNjUwcHg7IG1pbi13aWR0aDogNjUwcHg7IGZvbnQtc2l6ZTogMHB0OyBsaW5lLWhlaWdodDogMHB0OyBwYWRkaW5nOiAwOyBtYXJnaW46IDA7IGZvbnQtd2VpZ2h0OiBub3JtYWw7Ij4KPHRhYmxlIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIiBiZ2NvbG9yPSIjZmZmZmZmIiBzdHlsZT0id2lkdGg6IDEwMCU7Ij4KPHRib2R5Pgo8dHI+Cjx0ZCBjbGFzcz0icC0yNS0xNSIgc3R5bGU9InBhZGRpbmc6IDQwcHggMDsiPgo8dGFibGUgYm9yZGVyPSIwIiBjZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiIHN0eWxlPSJ3aWR0aDogMTAwJTsiPgo8dGJvZHk+Cjx0cj48dGggY2xhc3M9ImNvbHVtbiIgd2lkdGg9IjE0NCIgc3R5bGU9ImZvbnQtc2l6ZTogMHB0OyBsaW5lLWhlaWdodDogMHB0OyBwYWRkaW5nOiAwOyBtYXJnaW46IDA7IGZvbnQtd2VpZ2h0OiBub3JtYWw7Ij4KPGRpdiBjbGFzcz0iaW1nLWNlbnRlciIgc3R5bGU9ImZvbnQtc2l6ZTogMHB0OyBsaW5lLWhlaWdodDogMHB0OyB0ZXh0LWFsaWduOiBjZW50ZXI7Ij48YSBocmVmPSIjIiB0YXJnZXQ9Il9ibGFuayI+PGltZyBzcmM9Imh0dHA6Ly8xMzQuMTIyLjcuNTkvaW1hZ2VzX2VtYWlsX3RlbXBsYXRlL2xvZ28gZmluYWxfb3JpZ2luYWwucG5nIiBib3JkZXI9IjAiIHdpZHRoPSIzOTkiIGhlaWdodD0iMjA0IiBhbHQ9IiIgLz48L2E+PC9kaXY+CjwvdGg+PHRoIGNsYXNzPSJjb2x1bW4iIHdpZHRoPSIyMCIgc3R5bGU9ImZvbnQtc2l6ZTogMHB0OyBsaW5lLWhlaWdodDogMHB0OyBwYWRkaW5nOiAwOyBtYXJnaW46IDA7IGZvbnQtd2VpZ2h0OiBub3JtYWw7Ij4KPGRpdiBzdHlsZT0iZm9udC1zaXplOiAwcHQ7IGxpbmUtaGVpZ2h0OiAwcHQ7IiBjbGFzcz0ibS1ici0xMCI+PC9kaXY+CjwvdGg+PC90cj4KPC90Ym9keT4KPC90YWJsZT4KPC90ZD4KPC90cj4KPC90Ym9keT4KPC90YWJsZT4KPC90ZD4KPC90cj4KPC90Ym9keT4KPC90YWJsZT4KPC90ZD4KPC90cj4KPC90Ym9keT4KPC90YWJsZT4KPCEtLSBFTkQgSGVhZGVyIC0tPiA8IS0tIE1haW4gLS0+Cjx0YWJsZSBib3JkZXI9IjAiIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMCIgc3R5bGU9IndpZHRoOiAxMDAlOyI+Cjx0Ym9keT4KPHRyPgo8dGQ+PCEtLSBTZWN0aW9uIDEgLS0+Cjx0YWJsZSBib3JkZXI9IjAiIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMCIgYmdjb2xvcj0iIzYxYjdhYSIgc3R5bGU9IndpZHRoOiAxMDAlOyI+Cjx0Ym9keT4KPHRyPgo8dGQgdmFsaWduPSJ0b3AiIGNsYXNzPSJtLXRkIiBzdHlsZT0iZm9udC1zaXplOiAwcHQ7IGxpbmUtaGVpZ2h0OiAwcHQ7IHRleHQtYWxpZ246IGxlZnQ7Ij4KPHRhYmxlIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIiBzdHlsZT0id2lkdGg6IDEwMCU7Ij4KPHRib2R5Pgo8dHI+Cjx0ZCBjbGFzcz0iaW1nIiBoZWlnaHQ9IjMwIiBiZ2NvbG9yPSIjZmZmZmZmIiBzdHlsZT0iZm9udC1zaXplOiAwcHQ7IGxpbmUtaGVpZ2h0OiAwcHQ7IHRleHQtYWxpZ246IGxlZnQ7Ij4mbmJzcDs8L3RkPgo8L3RyPgo8L3Rib2R5Pgo8L3RhYmxlPgo8L3RkPgo8dGQgYWxpZ249ImNlbnRlciIgdmFsaWduPSJ0b3AiIHdpZHRoPSI2NTAiIGNsYXNzPSJtb2JpbGUtc2hlbGwiPgo8dGFibGUgYm9yZGVyPSIwIiBjZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiIGNsYXNzPSJtb2JpbGUtc2hlbGwiIHN0eWxlPSJ3aWR0aDogNjUwcHg7Ij4KPHRib2R5Pgo8dHI+Cjx0ZCBjbGFzcz0idGQiIHN0eWxlPSJ3aWR0aDogNjUwcHg7IG1pbi13aWR0aDogNjUwcHg7IGZvbnQtc2l6ZTogMHB0OyBsaW5lLWhlaWdodDogMHB0OyBwYWRkaW5nOiAwOyBtYXJnaW46IDA7IGZvbnQtd2VpZ2h0OiBub3JtYWw7Ij4KPHRhYmxlIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIiBzdHlsZT0id2lkdGg6IDEwMCU7Ij4KPHRib2R5Pgo8dHI+Cjx0ZCBjbGFzcz0iZmx1aWQtaW1nIiBzdHlsZT0iZm9udC1zaXplOiAwcHQ7IGxpbmUtaGVpZ2h0OiAwcHQ7IHRleHQtYWxpZ246IGxlZnQ7Ij48YSBocmVmPSIjIiB0YXJnZXQ9Il9ibGFuayI+PGltZyBzcmM9Imh0dHA6Ly8xMzQuMTIyLjcuNTkvaW1hZ2VzX2VtYWlsX3RlbXBsYXRlL2xvZ29fYmllbnZlbmlkYS5qcGciIHdpZHRoPSI2NTAiIGhlaWdodD0iNDE3IiBib3JkZXI9IjAiIGFsdD0iIiAvPjwvYT48L3RkPgo8L3RyPgo8dHI+Cjx0ZCBjbGFzcz0iaDEtMS13aGl0ZSBjZW50ZXJlZCBwLTI1LTE1IiBzdHlsZT0icGFkZGluZzogMzBweDsgY29sb3I6ICNmZmZmZmY7IGZvbnQtZmFtaWx5OiAnQmFybG93IENvbmRlbnNlZCcsIEFyaWFsLHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogNDRweDsgbGluZS1oZWlnaHQ6IDUycHg7IHRleHQtYWxpZ246IGNlbnRlcjsiIGJnY29sb3I9IiNkODVkNWMiPiZpZXhjbDtCSUVOVkVOSURPITwvdGQ+CjwvdHI+Cjx0cj4KPHRkIGNsYXNzPSJwLTI1LTE1IiBzdHlsZT0icGFkZGluZzogMzBweCAzMHB4IDUwcHggMzBweDsiPgo8dGFibGUgYm9yZGVyPSIwIiBjZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiIHN0eWxlPSJ3aWR0aDogMTAwJTsiPgo8dGJvZHk+Cjx0cj4KPHRkIGNsYXNzPSJ0ZXh0LTQtd2hpdGUgY2VudGVyZWQiIHN0eWxlPSJwYWRkaW5nLWJvdHRvbTogMzBweDsgY29sb3I6ICNmZmZmZmY7IGZvbnQtZmFtaWx5OiAnUXVpY2tzYW5kJywgQXJpYWwsc2Fucy1zZXJpZjsgZm9udC1zaXplOiAyMnB4OyBsaW5lLWhlaWdodDogMzRweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+VGUgZGFtb3MgbGEgYmllbnZlbmlkYSwgbXVjaG9zIGxvZ3JvcyB5ICZlYWN1dGU7eGl0b3MgZW4gZXN0ZSBudWV2byBlc2Z1ZXJ6by48L3RkPgo8L3RyPgo8dHI+Cjx0ZCBjbGFzcz0idGV4dC00LXdoaXRlIGNlbnRlcmVkIiBzdHlsZT0icGFkZGluZy1ib3R0b206IDMwcHg7IGNvbG9yOiAjZmZmZmZmOyBmb250LWZhbWlseTogJ1F1aWNrc2FuZCcsIEFyaWFsLHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMjJweDsgbGluZS1oZWlnaHQ6IDM0cHg7IHRleHQtYWxpZ246IGNlbnRlcjsiPiZpZXhjbDtCdWVuYSBzdWVydGUgeSBidWVuIHRyYWJham8hLjwvdGQ+CjwvdHI+Cjx0cj4KPHRkIGNsYXNzPSJ0ZXh0LTQtd2hpdGUgY2VudGVyZWQiIHN0eWxlPSJwYWRkaW5nLWJvdHRvbTogMzBweDsgY29sb3I6ICNmZmZmZmY7IGZvbnQtZmFtaWx5OiAnUXVpY2tzYW5kJywgQXJpYWwsc2Fucy1zZXJpZjsgZm9udC1zaXplOiAyMnB4OyBsaW5lLWhlaWdodDogMzRweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+UGFyYSBxdWUgbnVlc3RyYSBlbnRpZGFkIHRlbmdhICZlYWN1dGU7eGl0byBlbiBzdSBjb25qdW50bywgdG9kb3MgZGViZW1vcyBlc3RhciBjb25lY3RhZG9zIGNvbW8gdW4gZXF1aXBvIHkgdHJhYmFqYXIganVudG9zLiAmaWV4Y2w7UG9yIGVzbyBzaWVtcHJlIHRyYWJhamFtb3MgcG9yIGVsIGJpZW4gZGUgbG9zIGRlbSZhYWN1dGU7cyE8L3RkPgo8L3RyPgo8L3Rib2R5Pgo8L3RhYmxlPgo8L3RkPgo8L3RyPgo8L3Rib2R5Pgo8L3RhYmxlPgo8L3RkPgo8L3RyPgo8L3Rib2R5Pgo8L3RhYmxlPgo8L3RkPgo8dGQgdmFsaWduPSJ0b3AiIGNsYXNzPSJtLXRkIiBzdHlsZT0iZm9udC1zaXplOiAwcHQ7IGxpbmUtaGVpZ2h0OiAwcHQ7IHRleHQtYWxpZ246IGxlZnQ7Ij4KPHRhYmxlIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIiBzdHlsZT0id2lkdGg6IDEwMCU7Ij4KPHRib2R5Pgo8dHI+Cjx0ZCBjbGFzcz0iaW1nIiBoZWlnaHQ9IjMwIiBiZ2NvbG9yPSIjZmZmZmZmIiBzdHlsZT0iZm9udC1zaXplOiAwcHQ7IGxpbmUtaGVpZ2h0OiAwcHQ7IHRleHQtYWxpZ246IGxlZnQ7Ij4mbmJzcDs8L3RkPgo8L3RyPgo8L3Rib2R5Pgo8L3RhYmxlPgo8L3RkPgo8L3RyPgo8L3Rib2R5Pgo8L3RhYmxlPgo8IS0tIEVORCBTZWN0aW9uIDEgLS0+IDwhLS0gU2VjdGlvbiA0IC0tPgo8dGFibGUgYm9yZGVyPSIwIiBjZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiIGJnY29sb3I9IiNlZGVkZWQiIHN0eWxlPSJ3aWR0aDogMTAwJTsiPgo8dGJvZHk+Cjx0cj4KPHRkIGFsaWduPSJjZW50ZXIiIHZhbGlnbj0idG9wIj4KPHRhYmxlIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIiBjbGFzcz0ibW9iaWxlLXNoZWxsIiBzdHlsZT0id2lkdGg6IDY1MHB4OyI+Cjx0Ym9keT4KPHRyPgo8dGQgY2xhc3M9InRkIiBzdHlsZT0id2lkdGg6IDY1MHB4OyBtaW4td2lkdGg6IDY1MHB4OyBmb250LXNpemU6IDBwdDsgbGluZS1oZWlnaHQ6IDBwdDsgcGFkZGluZzogMDsgbWFyZ2luOiAwOyBmb250LXdlaWdodDogbm9ybWFsOyI+Cjx0YWJsZSBib3JkZXI9IjAiIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMCIgc3R5bGU9IndpZHRoOiAxMDAlOyI+Cjx0Ym9keT4KPHRyPgo8dGQgY2xhc3M9InAtMjUtMTUiIHN0eWxlPSJwYWRkaW5nOiA1MHB4IDA7Ij4KPHRhYmxlIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIiBkaXI9InJ0bCIgc3R5bGU9IndpZHRoOiAxMDAlOyI+Cjx0Ym9keT4KPHRyPjx0aCBjbGFzcz0iY29sdW1uLXRvcCIgZGlyPSJsdHIiIHZhbGlnbj0idG9wIiB3aWR0aD0iMzIwIiBzdHlsZT0iZm9udC1zaXplOiAwcHQ7IGxpbmUtaGVpZ2h0OiAwcHQ7IHBhZGRpbmc6IDA7IG1hcmdpbjogMDsgZm9udC13ZWlnaHQ6IG5vcm1hbDsgdmVydGljYWwtYWxpZ246IHRvcDsiPgo8ZGl2IGNsYXNzPSJmbHVpZC1pbWciIHN0eWxlPSJmb250LXNpemU6IDBwdDsgbGluZS1oZWlnaHQ6IDBwdDsgdGV4dC1hbGlnbjogbGVmdDsiPjxhIGhyZWY9IiMiIHRhcmdldD0iX2JsYW5rIj48aW1nIHNyYz0iaHR0cDovLzEzNC4xMjIuNy41OS9pbWFnZXNfZW1haWxfdGVtcGxhdGUvaW1nXzM1LmpwZyIgYm9yZGVyPSIwIiB3aWR0aD0iMzIwIiBoZWlnaHQ9IjI4NSIgYWx0PSIiIC8+PC9hPjwvZGl2Pgo8L3RoPjx0aCBjbGFzcz0iY29sdW1uLXRvcCIgZGlyPSJsdHIiIHZhbGlnbj0idG9wIiB3aWR0aD0iMTAiIHN0eWxlPSJmb250LXNpemU6IDBwdDsgbGluZS1oZWlnaHQ6IDBwdDsgcGFkZGluZzogMDsgbWFyZ2luOiAwOyBmb250LXdlaWdodDogbm9ybWFsOyB2ZXJ0aWNhbC1hbGlnbjogdG9wOyI+CjxkaXYgc3R5bGU9ImZvbnQtc2l6ZTogMHB0OyBsaW5lLWhlaWdodDogMHB0OyIgY2xhc3M9Im0tYnItMTUiPjwvZGl2Pgo8L3RoPjx0aCBjbGFzcz0iY29sdW1uLXRvcCIgZGlyPSJsdHIiIHZhbGlnbj0idG9wIiBzdHlsZT0iZm9udC1zaXplOiAwcHQ7IGxpbmUtaGVpZ2h0OiAwcHQ7IHBhZGRpbmc6IDA7IG1hcmdpbjogMDsgZm9udC13ZWlnaHQ6IG5vcm1hbDsgdmVydGljYWwtYWxpZ246IHRvcDsiPgo8dGFibGUgYm9yZGVyPSIwIiBjZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiIHN0eWxlPSJ3aWR0aDogMTAwJTsiPgo8dGJvZHk+Cjx0cj4KPHRkIGNsYXNzPSJoMi13aGl0ZSIgc3R5bGU9InBhZGRpbmctYm90dG9tOiAyMHB4OyBjb2xvcjogIzdkN2U4MDsgZm9udC1mYW1pbHk6ICdCYXJsb3cgQ29uZGVuc2VkJywgQXJpYWwsc2Fucy1zZXJpZjsgZm9udC1zaXplOiAzNHB4OyBsaW5lLWhlaWdodDogNDJweDsgdGV4dC1hbGlnbjogbGVmdDsiPkNSRURFTkNJQUxFUyBQQVJBIEFDQ0VTTyBBIExBIFBMQVRBRk9STUE8L3RkPgo8L3RyPgo8dHI+Cjx0ZCBjbGFzcz0idGV4dC0yLXdoaXRlIiBzdHlsZT0icGFkZGluZy1ib3R0b206IDI1cHg7IGNvbG9yOiAjN2Q3ZTgwOyBmb250LWZhbWlseTogJ1F1aWNrc2FuZCcsIEFyaWFsLHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMThweDsgbGluZS1oZWlnaHQ6IDMwcHg7IHRleHQtYWxpZ246IGxlZnQ7Ij5Vc3VhcmlvIDogQCN0ZXh0VmFyOTk5MDAxPC90ZD4KPC90cj4KPHRyPgo8dGQgY2xhc3M9InRleHQtMi13aGl0ZSIgc3R5bGU9InBhZGRpbmctYm90dG9tOiAyNXB4OyBjb2xvcjogIzdkN2U4MDsgZm9udC1mYW1pbHk6ICdRdWlja3NhbmQnLCBBcmlhbCxzYW5zLXNlcmlmOyBmb250LXNpemU6IDE4cHg7IGxpbmUtaGVpZ2h0OiAzMHB4OyB0ZXh0LWFsaWduOiBsZWZ0OyI+Q29udHJhc2UmbnRpbGRlO2EgOiAxMjM0NTwvdGQ+CjwvdHI+Cjx0cj4KPHRkIGNsYXNzPSJ0ZXh0LTItd2hpdGUiIHN0eWxlPSJwYWRkaW5nLWJvdHRvbTogMjVweDsgY29sb3I6ICM3ZDdlODA7IGZvbnQtZmFtaWx5OiAnUXVpY2tzYW5kJywgQXJpYWwsc2Fucy1zZXJpZjsgZm9udC1zaXplOiAxOHB4OyBsaW5lLWhlaWdodDogMzBweDsgdGV4dC1hbGlnbjoganVzdGlmeTsiPkVzdGEgY29udHJhc2UmbnRpbGRlO2Egc29sbyBmdW5jaW9uYSBsYSBwcmltZXJhIHZleiBxdWUgaW5ncmVzZSBhIGxhIHBsYXRhZm9ybWEsIGVuIGVzZSBtb21lbnRvIGVsIHNpc3RlbWEgbGUgc29saWNpdGFyJmFhY3V0ZTsgdW5hIG51ZXZhIGNvbnRyYXNlJm50aWxkZTthLjwvdGQ+CjwvdHI+Cjx0cj4KPHRkIGFsaWduPSJsZWZ0Ij48IS0tIEJ1dHRvbiAtLT4KPHRhYmxlIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIj4KPHRib2R5Pgo8dHI+Cjx0ZCBjbGFzcz0idGV4dC1idG4td2hpdGUiIGJnY29sb3I9IiNkODVkNWMiIHN0eWxlPSJjb2xvcjogIzdkN2U4MDsgZm9udC1mYW1pbHk6ICdRdWlja3NhbmQnLCBBcmlhbCxzYW5zLXNlcmlmOyBmb250LXNpemU6IDEycHg7IGxpbmUtaGVpZ2h0OiAxNnB4OyB0ZXh0LWFsaWduOiBjZW50ZXI7IHBhZGRpbmc6IDEwcHggMjVweDsgYm9yZGVyLXJhZGl1czogM3B4OyBib3JkZXI6IDFweCBzb2xpZCAjZmZmZmZmOyI+PGEgaHJlZj0iaHR0cDovL2lwc2RvcmFkYS5jb20iIHRhcmdldD0iX2JsYW5rIiBjbGFzcz0ibGluay13aGl0ZSIgc3R5bGU9ImNvbG9yOiAjZmZmZmZmOyB0ZXh0LWRlY29yYXRpb246IG5vbmU7Ij48c3BhbiBjbGFzcz0ibGluay13aGl0ZSIgc3R5bGU9ImNvbG9yOiAjZmZmZmZmOyB0ZXh0LWRlY29yYXRpb246IG5vbmU7Ij5JbmljaWUgU2VzaSZvYWN1dGU7bjwvc3Bhbj48L2E+PC90ZD4KPC90cj4KPC90Ym9keT4KPC90YWJsZT4KPCEtLSBFTkQgQnV0dG9uIC0tPjwvdGQ+CjwvdHI+CjwvdGJvZHk+CjwvdGFibGU+CjwvdGg+PC90cj4KPC90Ym9keT4KPC90YWJsZT4KPC90ZD4KPC90cj4KPC90Ym9keT4KPC90YWJsZT4KPC90ZD4KPC90cj4KPC90Ym9keT4KPC90YWJsZT4KPC90ZD4KPC90cj4KPC90Ym9keT4KPC90YWJsZT4KPCEtLSBFTkQgU2VjdGlvbiA0IC0tPjwvdGQ+CjwvdHI+CjwvdGJvZHk+CjwvdGFibGU+CjwhLS0gRU5EIE1haW4gLS0+IDwhLS0gRm9vdGVyIC0tPiA8IS0tIEJvdHRvbSAtLT4KPHRhYmxlIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIiBiZ2NvbG9yPSIjN2Q3ZTgwIiBzdHlsZT0id2lkdGg6IDEwMCU7Ij4KPHRib2R5Pgo8dHI+Cjx0ZCBhbGlnbj0iY2VudGVyIiB2YWxpZ249InRvcCI+Cjx0YWJsZSBib3JkZXI9IjAiIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMCIgY2xhc3M9Im1vYmlsZS1zaGVsbCIgc3R5bGU9IndpZHRoOiA2NTBweDsiPgo8dGJvZHk+Cjx0cj4KPHRkIGNsYXNzPSJ0ZCIgc3R5bGU9IndpZHRoOiA2NTBweDsgbWluLXdpZHRoOiA2NTBweDsgZm9udC1zaXplOiAwcHQ7IGxpbmUtaGVpZ2h0OiAwcHQ7IHBhZGRpbmc6IDA7IG1hcmdpbjogMDsgZm9udC13ZWlnaHQ6IG5vcm1hbDsiPgo8dGFibGUgYm9yZGVyPSIwIiBjZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiIHN0eWxlPSJ3aWR0aDogMTAwJTsiPgo8dGJvZHk+Cjx0cj4KPHRkIGNsYXNzPSJ0ZXh0LWJvdHRvbSBjZW50ZXJlZCBwbHItMTUiIHN0eWxlPSJwYWRkaW5nOiAyMHB4IDMwcHg7IGNvbG9yOiAjZmZmZmZmOyBmb250LWZhbWlseTogJ1F1aWNrc2FuZCcsIEFyaWFsLHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTJweDsgbGluZS1oZWlnaHQ6IDI0cHg7IHRleHQtYWxpZ246IGNlbnRlcjsiPklQUyBMQSBET1JBREE8YnIgLz4gQ0FMTEUgNiBDQVNBIDMwIEJBUlJJTyBMT1MgUFJBRE9TIC0gMzEwIDI3MSA0MzU0LjwvdGQ+CjwvdHI+CjwvdGJvZHk+CjwvdGFibGU+CjwvdGQ+CjwvdHI+CjwvdGJvZHk+CjwvdGFibGU+CjwvdGQ+CjwvdHI+CjwvdGJvZHk+CjwvdGFibGU+CjwhLS0gRU5EIEJvdHRvbSAtLT48L3RkPgo8L3RyPgo8L3Rib2R5Pgo8L3RhYmxlPgo8L2JvZHk+CjwvaHRtbD4=]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>

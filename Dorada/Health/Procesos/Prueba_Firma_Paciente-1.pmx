@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.3.3-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1604973189</meta>
+    <meta key="export_datetime"><![CDATA[2020-11-10T01:53:09+00:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[134.122.7.59:80]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">50640</meta>
+    <meta key="workspace">dorada</meta>
+    <meta key="name">Prueba Firma Paciente</meta>
+    <meta key="uid">2788125195ecd665d2fcee6035031424</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>5662773175ecd6b01cf4e15098660139</act_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <pro_uid>1612483475ecd665d346d34069369015</pro_uid>
+        <act_name>Firma Digital</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>1</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>2386496175ecd6b01cfcc09023214595</bou_uid>
+        <dia_uid>6961399945ecd665d33fe22085657496</dia_uid>
+        <element_uid>5662773175ecd6b01cf4e15098660139</element_uid>
+        <bou_element>9678147035ecd666dfb23f7006386800</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>250</bou_x>
+        <bou_y>115</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>2386496175ecd6b01cfcc09023214595</bou_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <dia_uid>6961399945ecd665d33fe22085657496</dia_uid>
+        <element_uid>5662773175ecd6b01cf4e15098660139</element_uid>
+        <bou_element>9678147035ecd666dfb23f7006386800</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>250</bou_x>
+        <bou_y>115</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>5869686185ecd6b01ec6ab6002735656</bou_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <dia_uid>6961399945ecd665d33fe22085657496</dia_uid>
+        <element_uid>6167528695ecd6b01ec2525017622238</element_uid>
+        <bou_element>9678147035ecd666dfb23f7006386800</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>574</bou_x>
+        <bou_y>127</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>8318053905ecd6b01ea1b65085060674</bou_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <dia_uid>6961399945ecd665d33fe22085657496</dia_uid>
+        <element_uid>1155949875ecd6b01e9ca13011905041</element_uid>
+        <bou_element>9678147035ecd666dfb23f7006386800</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>100</bou_x>
+        <bou_y>100</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>6961399945ecd665d33fe22085657496</dia_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <dia_name>Prueba Firma Paciente</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>6167528695ecd6b01ec2525017622238</evn_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <pro_uid>1612483475ecd665d346d34069369015</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>5869686185ecd6b01ec6ab6002735656</bou_uid>
+        <dia_uid>6961399945ecd665d33fe22085657496</dia_uid>
+        <element_uid>6167528695ecd6b01ec2525017622238</element_uid>
+        <bou_element>9678147035ecd666dfb23f7006386800</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>574</bou_x>
+        <bou_y>127</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>1155949875ecd6b01e9ca13011905041</evn_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <pro_uid>1612483475ecd665d346d34069369015</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>8318053905ecd6b01ea1b65085060674</bou_uid>
+        <dia_uid>6961399945ecd665d33fe22085657496</dia_uid>
+        <element_uid>1155949875ecd6b01e9ca13011905041</element_uid>
+        <bou_element>9678147035ecd666dfb23f7006386800</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>100</bou_x>
+        <bou_y>100</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>9223779215ecd6b01f2fef7054441867</flo_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <dia_uid>6961399945ecd665d33fe22085657496</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>1155949875ecd6b01e9ca13011905041</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>5662773175ecd6b01cf4e15098660139</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>133</flo_x1>
+        <flo_y1>117</flo_y1>
+        <flo_x2>250</flo_x2>
+        <flo_y2>153</flo_y2>
+        <flo_state><![CDATA[[{"x":133,"y":117},{"x":191,"y":117},{"x":191,"y":153},{"x":250,"y":153}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>9394036845ecd6b01f30da0000762597</flo_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <dia_uid>6961399945ecd665d33fe22085657496</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>5662773175ecd6b01cf4e15098660139</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>6167528695ecd6b01ec2525017622238</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>401</flo_x1>
+        <flo_y1>153</flo_y1>
+        <flo_x2>574</flo_x2>
+        <flo_y2>144</flo_y2>
+        <flo_state><![CDATA[[{"x":401,"y":153},{"x":487,"y":153},{"x":487,"y":144},{"x":574,"y":144}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY"/>
+    <table name="LANE"/>
+    <table name="LANESET"/>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>1612483475ecd665d346d34069369015</pro_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <dia_uid>6961399945ecd665d33fe22085657496</dia_uid>
+        <pro_name>Prueba Firma Paciente</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <prj_name>Prueba Firma Paciente</prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2020-05-26 18:56:29]]></prj_create_date>
+        <prj_update_date><![CDATA[2020-05-26 19:16:17]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>2788125195ecd665d2fcee6035031424</pro_uid>
+        <pro_title>Prueba Firma Paciente</pro_title>
+        <pro_description></pro_description>
+        <pro_parent>2788125195ecd665d2fcee6035031424</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>INACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category></pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2020-05-26 19:16:17]]></pro_update_date>
+        <pro_create_date><![CDATA[2020-05-26 18:56:29]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>1</pro_debug>
+        <pro_dynaforms><![CDATA[a:1:{s:7:"PROCESS";s:0:"";}]]></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost><![CDATA[$]]></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label><![CDATA[Sin Categoría]]></pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>2788125195ecd665d2fcee6035031424</pro_uid>
+        <tas_uid>5662773175ecd6b01cf4e15098660139</tas_uid>
+        <tas_title>Firma Digital</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>8918336575eb468bbc490b8029496716</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>250</tas_posx>
+        <tas_posy>115</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>6213674495ecd6b0205d980038043833</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>2788125195ecd665d2fcee6035031424</pro_uid>
+        <tas_uid>5662773175ecd6b01cf4e15098660139</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs">
+      <record>
+        <out_doc_uid>2669014725ecd6c70b42b14090118014</out_doc_uid>
+        <out_doc_title>Factura</out_doc_title>
+        <out_doc_description></out_doc_description>
+        <out_doc_filename><![CDATA[Factura_@@suggestVar1001_@@NO_FACTURA_FINAL]]></out_doc_filename>
+        <out_doc_template><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Orden de Prestamo de Inventario</title>
+  <style>
+    html {
+      margin-left: 3px;
+      margin-top: 3px;
+     border: 3px solid #FFFFFF;!important
+     min-height: 120%;
+     width: 634px; 
+     height:812px
+    }
+
+    body {
+     border: 3px solid #FFFFFF;!important
+     min-height: 100%;
+     width: 612px; 
+     height:792px
+    }
+
+  </style>
+</head>
+<body>
+<table style="width: 507px; height: 195px;">
+<tbody><!--<tr>
+<td align="right" colspan="2"><font size="0">impreso @#FECHA_ACTUAL</font></td>
+</tr>-->
+<tr>
+<td align="center" style="width: 20%;"><img align="left" src="http://134.122.7.59/sysdorada/es-ES/neoclassic/setup/showLogoFile.php?id=bG9nb19maW5hbF9vcmlnaW5hbC5wbmc=" alt="Logo_Dorada" title="Logo_Amecon" width="90" height="60" /></td>
+<td align="center" style="width: 60%;">
+<table style="width: 300px; height: 187px;">
+<tbody>
+<tr>
+<td>&nbsp;<font size="1">&nbsp;&nbsp;</font> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<font size="1"> &nbsp;N&deg; FACTURA:&nbsp;<span>@@NO_FACTURA_FINAL&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span>@#FECHA_FACTURA&nbsp;</span></span></font></td>
+</tr>
+<tr>
+<td align="center">@#textVar1009 Nit: @#NIT_EPS&nbsp; @#DIR_EPS&nbsp; &nbsp; &nbsp; debe a:</td>
+</tr>
+<tr>
+<td align="center"><strong style="font-size: small;">IPS LA DORADA&nbsp;</strong></td>
+</tr>
+<tr>
+<td align="center">
+<p><font size="2">NIT. 901372032-1</font></p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<p><span>DIRECCION: BARRIO LOS PRADOS CALLE 6 CASA 30&nbsp; &nbsp; &nbsp;TELEFONO: 310 2714354</span></p>
+</td>
+</tr>
+<tr>
+<td align="center"><span>MUNICIPIO: LA DORADA&nbsp; - SAN MIGUEL&nbsp; &nbsp; &nbsp;DEPARTAMENTO: PUTUMAYO</span></td>
+</tr>
+<tr>
+<td align="center"><font size="1"><br /></font>
+<table cellspacing="0" border="0" style="width: 368px; height: 32px;">
+<tbody>
+<tr>
+<td align="center" colspan="2"><font size="3" face="andale mono,times"><strong>FACTURA DE SERVICIOS</strong></font></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<table style="width: 507px; height: 111px;" cellspacing="0" border="1">
+<tbody>
+<tr>
+<td align="center" colspan="2"><font size="1" face="andale mono,times"><strong>INFORMACI&Oacute;N DEL PACIENTE</strong></font></td>
+</tr>
+<tr>
+<td width="50%"><font size="1"><span>Paciente:&nbsp;<span>@#suggestVar1001_label</span></span></font></td>
+<td><font size="1" face="andale mono,times"><span>Fecha de Nacimiento : @#textVar1010&nbsp; &nbsp;Edad: @#textVar1003</span></font></td>
+</tr>
+<tr>
+<td><font size="1"><span>Identificaci&oacute;n: @#suggestVar1001</span></font></td>
+<td><font size="1"><span>G&eacute;nero: @#textVar1011</span></font></td>
+</tr>
+<tr>
+<td><font size="1"><span>Direcci&oacute;n: @#textVar1004</span></font></td>
+<td><font size="1"><span>EPS: @#textVar1009&nbsp; &nbsp; &nbsp; &nbsp;Regimen:@#textVar1012</span></font></td>
+</tr>
+<tr>
+<td><font size="1"><span>Tel&eacute;fono: @#textVar1006</span></font></td>
+<td><font size="1"><span>Celular: @#textVar1005</span></font></td>
+</tr>
+<tr>
+<td><font size="1"><span>Correo Electr&oacute;nico: @#textVar1007</span></font></td>
+<td><font size="1"><span>Ocupaci&oacute;n: @#textVar1008</span></font></td>
+</tr>
+</tbody>
+</table>
+<!-- Tabla donde se mostrará la información del revisor--><!--<hr /> -->
+<table style="border-spacing: 0px; height: 52px; width: 508px;" cellspacing="0" border="1">
+<tbody>
+<tr>
+<td align="center"><font size="2" face="andale mono,times"><strong>INFORMACION DE SERVICIOS</strong></font></td>
+</tr>
+<tr>
+<td align="center"><font size="1">Servicio Prestado: @#textVar600133&nbsp; &nbsp; &nbsp;Cuota Moderadora: @#textVar600134</font></td>
+</tr>
+<tr>
+<td align="center"><b>&nbsp;</b></td>
+</tr>
+</tbody>
+</table>
+<p align="center"></p>
+<table border="1" style="border-spacing: 0px; height: 37px; width: 513px;">
+<tbody>
+<tr>
+<td align="center"><font size="2"><b>TOTAL PACIENTE</b></font></td>
+<td align="center"><font size="2"><b>TOTAL EPS</b></font></td>
+<td align="center"><font size="2"><b>TOTAL FACTURAR</b></font></td>
+</tr>
+<tr>
+<td><font size="1">@#hiddenVar80003</font></td>
+<td><font size="1">@#hiddenVar80004</font></td>
+<td><font size="1">@#hiddenVar80007</font></td>
+</tr>
+</tbody>
+</table>
+<p><b>&nbsp; <font size="1">@#TXT_LETRA</font></b></p>
+<table border="1" style="border-spacing: 0px; height: 28px; width: 515px;">
+<tbody>
+<tr>
+<td><b>@#firma</b></td>
+<td><b>@#sello</b></td>
+</tr>
+<tr>
+<td><b>Nombre Paciente: @#<span>suggestVar1001_label</span></b></td>
+<td><b>Firma Paciente:</b></td>
+</tr>
+</tbody>
+</table>
+<table style="width: 518px; height: 21px;">
+<tbody>
+<tr>
+<td align="center"><b>RES. DIAN N&deg;: 18763005414522 DE FECHA: 2020/04/12 DEL N&deg;.00001 AL 10000 AUTORIZA<br /></b></td>
+</tr>
+</tbody>
+</table>
+<p><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</b></p>
+<p><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b><b>&nbsp; &nbsp; &nbsp; </b></p>
+<p></p>
+<p><span style="font-size: x-small; text-align: -webkit-right;">&nbsp;</span></p>
+</body>
+</html>]]></out_doc_template>
+        <pro_uid>2788125195ecd665d2fcee6035031424</pro_uid>
+        <out_doc_report_generator>TCPDF</out_doc_report_generator>
+        <out_doc_landscape>0</out_doc_landscape>
+        <out_doc_media>Letter</out_doc_media>
+        <out_doc_left_margin>20</out_doc_left_margin>
+        <out_doc_right_margin>20</out_doc_right_margin>
+        <out_doc_top_margin>20</out_doc_top_margin>
+        <out_doc_bottom_margin>20</out_doc_bottom_margin>
+        <out_doc_generate>PDF</out_doc_generate>
+        <out_doc_type>HTML</out_doc_type>
+        <out_doc_current_revision></out_doc_current_revision>
+        <out_doc_field_mapping></out_doc_field_mapping>
+        <out_doc_versioning>1</out_doc_versioning>
+        <out_doc_destination_path><![CDATA[@@APPLICATION]]></out_doc_destination_path>
+        <out_doc_tags><![CDATA[@@APPLICATION]]></out_doc_tags>
+        <out_doc_pdf_security_enabled>0</out_doc_pdf_security_enabled>
+        <out_doc_pdf_security_open_password></out_doc_pdf_security_open_password>
+        <out_doc_pdf_security_owner_password></out_doc_pdf_security_owner_password>
+        <out_doc_pdf_security_permissions></out_doc_pdf_security_permissions>
+        <out_doc_open_type>0</out_doc_open_type>
+      </record>
+    </table>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>1145162035ecd6676004a84007682601</dyn_uid>
+        <dyn_title>facturacion</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>2788125195ecd665d2fcee6035031424</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[2788125195ecd665d2fcee6035031424/1145162035ecd6676004a84007682601]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"facturacion","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"1145162035ecd6676004a84007682601","name":"facturacion","description":"","mode":"edit","script":{"type":"js","code":"inicio_facturacion_pre();\n\nfunction inicio_facturacion_pre(){\n  \n  /*$(\"#suggestVar1001\").getControl().attr(\"readOnly\", true);\n  $(\"#button1001\").hide();\n  $(\"#button1002\").hide();\n  $(\"#button1003\").hide();*/\n\n  $(\"#label0000000001\").css(\"color\",\"blue\");\n  $(\"#label0000000002\").css(\"color\",\"blue\");\n  $(\"#label0000000003\").css(\"color\",\"darkgreen\");\n\n  $(\"#label0000000001\").css(\"font-weight\",\"bold\");\n  $(\"#label0000000002\").css(\"font-weight\",\"bold\");\n  $(\"#label0000000003\").css(\"font-weight\",\"bold\");\n  \n  $('#label0000000001').setValue($('#hiddenVar80003').getText());\n  $('#label0000000002').setValue($('#hiddenVar80004').getText());\n  $('#label0000000003').setValue($('#hiddenVar80007').getText());\n}"},"language":"en","externalLibs":"/assets/css/custom.css","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"Facturación","colSpan":12}],[{"type":"form","variable":"","var_uid":"","dataType":"","id":"9412667295ecd66a693fc71077590448","name":"informacion paciente","description":"","mode":"edit","script":{"type":"js","code":"$(\"#button1001\").find(\"button\").on(\"click\" , function(){\n\t\n\twindow.open(\"http://orangecol.tk/sysamericana/es-ES/neoclassic/3196788185e5db675cac2c1081861327/2237636135d44bad1895dc1092946238.php\", \"\", \"width=1200,height=600\");\t\n});"},"language":"en","externalLibs":"/assets/css/custom.css","printable":false,"items":[[{"type":"subtitle","id":"subtitle1001","label":"INFORMACIÓN DEL PACIENTE","colSpan":12}],[{"type":"suggest","variable":"suggestVar1001","var_uid":"6078187285ecd66afb0ad20023814683","dataType":"string","protectedValue":false,"id":"suggestVar1001","name":"suggestVar1001","label":"Documento","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select no_historia, concat(no_historia,' - ',apel_1,' ',apel_2,' ',nom_1,' ',nom_2) as ced from hlt_pacientes","dataVariable":"","options":[],"delay":0,"var_name":"suggestVar1001","colSpan":8},{"type":"text","variable":"textVar1020","var_uid":"9165974675ecd66afb7dce7043346001","dataType":"string","protectedValue":false,"id":"textVar1020","name":"textVar1020","label":"RH","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select RH from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1020","colSpan":4}],[{"type":"text","variable":"textVar1010","var_uid":"4748322455ecd66afbf18c6047758641","dataType":"string","protectedValue":false,"id":"textVar1010","name":"textVar1010","label":"Fecha de Nacimiento","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select fecha_nac from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1010","colSpan":4},{"type":"text","variable":"textVar1003","var_uid":"3355016285ecd66afc6b1c5051811088","dataType":"string","protectedValue":false,"id":"textVar1003","name":"textVar1003","label":"Edad","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"SELECT Concat(date_part('year',age( fecha_nac )),' Años ',date_part('month',age( fecha_nac )) ,' Meses ',date_part('day',age( fecha_nac )) ,' Días') from hlt_pacientes where no_historia='@#suggestVar1001'","var_name":"textVar1003","colSpan":4},{"type":"text","variable":"textVar1011","var_uid":"8363071745ecd66afce3228056228598","dataType":"string","protectedValue":false,"id":"textVar1011","name":"textVar1011","label":"Género","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select descripcion from hlt_pacientes a left join hlt_sexo b on a.cod_sexo=b.cod_sexo where a.no_historia = '@#suggestVar1001'","var_name":"textVar1011","colSpan":4}],[{"type":"text","variable":"textVar1004","var_uid":"2367395195ecd66afd57e81010190660","dataType":"string","protectedValue":false,"id":"textVar1004","name":"textVar1004","label":"Dirección","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select concat(direccion,' B./ ',barrio) from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1004","colSpan":4},{"type":"text","variable":"textVar1005","var_uid":"1001197905ecd66afdcda79015944288","dataType":"string","protectedValue":false,"id":"textVar1005","name":"textVar1005","label":"Teléfono","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select telefono from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1005","colSpan":4},{"type":"text","variable":"textVar1006","var_uid":"6817362965ecd66afe44849040164973","dataType":"string","protectedValue":false,"id":"textVar1006","name":"textVar1006","label":"Celular","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select celular from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1006","colSpan":4}],[{"type":"text","variable":"textVar1007","var_uid":"5274408725ecd66afec1283088617538","dataType":"string","protectedValue":false,"id":"textVar1007","name":"textVar1007","label":"E-Mail","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select email from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1007","colSpan":4},{"type":"text","variable":"textVar1008","var_uid":"5588449385ecd66aff38779065810168","dataType":"string","protectedValue":false,"id":"textVar1008","name":"textVar1008","label":"Ocupación","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select descripcion from hlt_pacientes a left join hlt_ciuo b on a.cod_ciuo=b.cod_ciuo where a.no_historia='@#suggestVar1001'","var_name":"textVar1008","colSpan":4},{"type":"text","variable":"textVar1009","var_uid":"4189350705ecd66b0076502092385173","dataType":"string","protectedValue":false,"id":"textVar1009","name":"textVar1009","label":"EPS","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.nombre from hlt_pacientes a left join hlt_empresa b on a.cod_empresa=b.cod_empresa where a.no_historia = '@#suggestVar1001'","var_name":"textVar1009","colSpan":4}],[{"type":"text","variable":"textVar1013","var_uid":"8661156045ecd66b00ef726074171339","dataType":"string","protectedValue":false,"id":"textVar1013","name":"textVar1013","label":"Estado Civil","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_estado_civil b on a.cod_estado_civil=b.cod_estado_civil where a.no_historia = '@#suggestVar1001'","var_name":"textVar1013","colSpan":4},{"type":"text","variable":"textVar1014","var_uid":"4098703795ecd66b017dbe0061374137","dataType":"string","protectedValue":false,"id":"textVar1014","name":"textVar1014","label":"Estrato","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_estrato b on a.cod_estrato=b.cod_estrato where a.no_historia = '@#suggestVar1001'","var_name":"textVar1014","colSpan":4},{"type":"text","variable":"textVar1015","var_uid":"9233757565ecd66b01fc353046036758","dataType":"string","protectedValue":false,"id":"textVar1015","name":"textVar1015","label":"Etnia","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_etnia b on a.cod_etnia=b.cod_etnia where a.no_historia = '@#suggestVar1001'","var_name":"textVar1015","colSpan":4}],[{"type":"text","variable":"textVar1016","var_uid":"6642163625ecd66b027d054023371856","dataType":"string","protectedValue":false,"id":"textVar1016","name":"textVar1016","label":"Nivel de Estudios","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_escolaridad b on a.cod_escolaridad=b.cod_escolaridad where a.no_historia = '@#suggestVar1001'","var_name":"textVar1016","colSpan":4},{"type":"text","variable":"textVar1017","var_uid":"4884105335ecd66b02f61f0080312645","dataType":"string","protectedValue":false,"id":"textVar1017","name":"textVar1017","label":"Discapacidad","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_discapacidad b on a.cod_discapacidad=b.cod_discapacidad where a.no_historia = '@#suggestVar1001'","var_name":"textVar1017","colSpan":4},{"type":"text","variable":"textVar1012","var_uid":"2561460585ecd66b0372374040270838","dataType":"string","protectedValue":false,"id":"textVar1012","name":"textVar1012","label":"Régimen","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"SELECT CASE WHEN afiliacion= '1' THEN 'Contributivo' WHEN afiliacion= '2' THEN 'Subsidiado' ELSE 'Particular' END from hlt_pacientes where no_historia = '@#suggestVar1001'\n\n","var_name":"textVar1012","colSpan":4}]],"variables":[{"var_uid":"6078187285ecd66afb0ad20023814683","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"suggestVar1001","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4051417615e6a7bb3ef90f0033206973","var_name_old":"suggestVar1001","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"9165974675ecd66afb7dce7043346001","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1020","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1831133775e6a7bb3d90d63051031816","var_name_old":"textVar1020","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4748322455ecd66afbf18c6047758641","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1010","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7324862895e6a7bb3d3f850083687446","var_name_old":"textVar1010","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"3355016285ecd66afc6b1c5051811088","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1003","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1452733495e6a7bb3d23e01068290312","var_name_old":"textVar1003","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8363071745ecd66afce3228056228598","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1011","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"3633991095e6a7bb3eb49a0066179348","var_name_old":"textVar1011","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2367395195ecd66afd57e81010190660","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1004","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4350014745e6a7bb3e05466097286143","var_name_old":"textVar1004","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"1001197905ecd66afdcda79015944288","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1005","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8625585715e6a7bb4058318067226031","var_name_old":"textVar1005","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"6817362965ecd66afe44849040164973","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1006","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7396694435e6a7bb40c9ed6020486508","var_name_old":"textVar1006","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"5274408725ecd66afec1283088617538","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1007","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4741425975e6a7bb42537c4041011153","var_name_old":"textVar1007","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"5588449385ecd66aff38779065810168","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1008","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8459728945e6a7bb415c867027456745","var_name_old":"textVar1008","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4189350705ecd66b0076502092385173","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1009","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8606272645e6a7bb411b4d6029205556","var_name_old":"textVar1009","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8661156045ecd66b00ef726074171339","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1013","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1877990415e6a7bb4312fc4081833295","var_name_old":"textVar1013","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4098703795ecd66b017dbe0061374137","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1014","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6654082325e6a7bb4292ed1059699596","var_name_old":"textVar1014","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"9233757565ecd66b01fc353046036758","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1015","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6654798445e6a7bb422ad09038970579","var_name_old":"textVar1015","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"6642163625ecd66b027d054023371856","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1016","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6987381865e6a7bb4211bb1032335354","var_name_old":"textVar1016","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4884105335ecd66b02f61f0080312645","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1017","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7307572515e6a7bb3e17462052847128","var_name_old":"textVar1017","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2561460585ecd66b0372374040270838","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1012","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2943669175e6a7bb3d1a3c8094683104","var_name_old":"textVar1012","prj_uid_old":"3196788185e5db675cac2c1081861327"}],"colSpan":12}],[{"type":"subtitle","id":"subtitle0000001002","label":"Información de Atención","colSpan":12}],[{"type":"text","variable":"textVar600133","var_uid":"3087633825ecd667d794a91034916963","dataType":"string","protectedValue":false,"id":"textVar600133","name":"textVar600133","label":"Servicio de atención","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar600133","colSpan":12}],[{"type":"text","variable":"textVar600134","var_uid":"4227267275ecd667d843504009611528","dataType":"string","protectedValue":false,"id":"textVar600134","name":"textVar600134","label":"Cuota moderadora","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar600134","colSpan":12}],[{"type":"label","id":"label0000000001","label":"Total Paciente : ","colSpan":4},{"type":"label","id":"label0000000002","label":"Total E.P.S. : ","colSpan":4},{"type":"label","id":"label0000000003","label":"Total a Facturar","colSpan":4}],[{"type":"hidden","variable":"hiddenVar80003","var_uid":"7927730285ecd667d8c0104064442344","dataType":"string","protectedValue":false,"id":"hiddenVar80003","name":"hiddenVar80003","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"hiddenVar80003","colSpan":4},{"type":"hidden","variable":"hiddenVar80004","var_uid":"9603459645ecd667d93d1d9037641399","dataType":"string","protectedValue":false,"id":"hiddenVar80004","name":"hiddenVar80004","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"hiddenVar80004","colSpan":4},{"type":"hidden","variable":"hiddenVar80007","var_uid":"1967108695ecd667d9b8297007537728","dataType":"string","protectedValue":false,"id":"hiddenVar80007","name":"hiddenVar80007","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"hiddenVar80007","colSpan":4}],[{"type":"hidden","variable":"hiddenVar80008","var_uid":"9500427425ecd667da2f923080627735","dataType":"string","protectedValue":false,"id":"hiddenVar80008","name":"hiddenVar80008","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"hiddenVar80008","colSpan":12}],[{"type":"multipleFile","variable":"multipleFileVar6003","var_uid":"8738039475ecd667dab4371075823675","dataType":"multiplefile","protectedValue":false,"id":"multipleFileVar6003","name":"multipleFileVar6003","label":"Firma Paciente","inputDocument":"","required":false,"requiredFieldErrorMessage":"","dnd":false,"extensions":"*.png","size":1024,"sizeUnity":"KB","enableVersioning":false,"mode":"parent","multiple":false,"inp_doc_uid":"","var_name":"multipleFileVar6003","colSpan":12}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Facturar","colSpan":12}]],"variables":[{"var_uid":"3087633825ecd667d794a91034916963","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar600133","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"5830529005e6a7bb42bfb56047356675","var_name_old":"textVar600133","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4227267275ecd667d843504009611528","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar600134","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7683295395e6a7bb4079f99093817495","var_name_old":"textVar600134","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"7927730285ecd667d8c0104064442344","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"hiddenVar80003","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6819065665e6a7bb416d936020185940","var_name_old":"hiddenVar80003","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"9603459645ecd667d93d1d9037641399","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"hiddenVar80004","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1755257535e6a7bb3ee6776001303279","var_name_old":"hiddenVar80004","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"1967108695ecd667d9b8297007537728","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"hiddenVar80007","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4760609175e8e5ee1182452055015108","var_name_old":"hiddenVar80007","prj_uid_old":"4517635355e6a7bb14249c3032974452"},{"var_uid":"9500427425ecd667da2f923080627735","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"hiddenVar80008","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"3077668375e94ee52937798026658334","var_name_old":"hiddenVar80008","prj_uid_old":"4517635355e6a7bb14249c3032974452"},{"var_uid":"8738039475ecd667dab4371075823675","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"multipleFileVar6003","var_field_type":"multiplefile","var_field_size":10,"var_label":"multiplefile","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"5996603365ecc213471a871044739767","var_name_old":"multipleFileVar6003","prj_uid_old":"4517635355e6a7bb14249c3032974452"}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2020-05-26 19:15:30]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>9412667295ecd66a693fc71077590448</dyn_uid>
+        <dyn_title>informacion paciente</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>2788125195ecd665d2fcee6035031424</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[2788125195ecd665d2fcee6035031424/9412667295ecd66a693fc71077590448]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"informacion paciente","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"9412667295ecd66a693fc71077590448","name":"informacion paciente","description":"","mode":"edit","script":{"type":"js","code":"$(\"#button1001\").find(\"button\").on(\"click\" , function(){\n\t\n\twindow.open(\"http://orangecol.tk/sysamericana/es-ES/neoclassic/3196788185e5db675cac2c1081861327/2237636135d44bad1895dc1092946238.php\", \"\", \"width=1200,height=600\");\t\n});"},"language":"en","externalLibs":"/assets/css/custom.css","printable":false,"items":[[{"type":"subtitle","id":"subtitle1001","label":"INFORMACIÓN DEL PACIENTE","colSpan":12}],[{"type":"suggest","variable":"suggestVar1001","var_uid":"6078187285ecd66afb0ad20023814683","dataType":"string","protectedValue":false,"id":"suggestVar1001","name":"suggestVar1001","label":"Documento","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select no_historia, concat(no_historia,' - ',apel_1,' ',apel_2,' ',nom_1,' ',nom_2) as ced from hlt_pacientes","dataVariable":"","options":[],"delay":0,"var_name":"suggestVar1001","colSpan":8},{"type":"text","variable":"textVar1020","var_uid":"9165974675ecd66afb7dce7043346001","dataType":"string","protectedValue":false,"id":"textVar1020","name":"textVar1020","label":"RH","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select RH from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1020","colSpan":4}],[{"type":"text","variable":"textVar1010","var_uid":"4748322455ecd66afbf18c6047758641","dataType":"string","protectedValue":false,"id":"textVar1010","name":"textVar1010","label":"Fecha de Nacimiento","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select fecha_nac from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1010","colSpan":4},{"type":"text","variable":"textVar1003","var_uid":"3355016285ecd66afc6b1c5051811088","dataType":"string","protectedValue":false,"id":"textVar1003","name":"textVar1003","label":"Edad","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"SELECT Concat(date_part('year',age( fecha_nac )),' Años ',date_part('month',age( fecha_nac )) ,' Meses ',date_part('day',age( fecha_nac )) ,' Días') from hlt_pacientes where no_historia='@#suggestVar1001'","var_name":"textVar1003","colSpan":4},{"type":"text","variable":"textVar1011","var_uid":"8363071745ecd66afce3228056228598","dataType":"string","protectedValue":false,"id":"textVar1011","name":"textVar1011","label":"Género","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select descripcion from hlt_pacientes a left join hlt_sexo b on a.cod_sexo=b.cod_sexo where a.no_historia = '@#suggestVar1001'","var_name":"textVar1011","colSpan":4}],[{"type":"text","variable":"textVar1004","var_uid":"2367395195ecd66afd57e81010190660","dataType":"string","protectedValue":false,"id":"textVar1004","name":"textVar1004","label":"Dirección","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select concat(direccion,' B./ ',barrio) from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1004","colSpan":4},{"type":"text","variable":"textVar1005","var_uid":"1001197905ecd66afdcda79015944288","dataType":"string","protectedValue":false,"id":"textVar1005","name":"textVar1005","label":"Teléfono","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select telefono from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1005","colSpan":4},{"type":"text","variable":"textVar1006","var_uid":"6817362965ecd66afe44849040164973","dataType":"string","protectedValue":false,"id":"textVar1006","name":"textVar1006","label":"Celular","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select celular from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1006","colSpan":4}],[{"type":"text","variable":"textVar1007","var_uid":"5274408725ecd66afec1283088617538","dataType":"string","protectedValue":false,"id":"textVar1007","name":"textVar1007","label":"E-Mail","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select email from hlt_pacientes where no_historia = '@#suggestVar1001'","var_name":"textVar1007","colSpan":4},{"type":"text","variable":"textVar1008","var_uid":"5588449385ecd66aff38779065810168","dataType":"string","protectedValue":false,"id":"textVar1008","name":"textVar1008","label":"Ocupación","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select descripcion from hlt_pacientes a left join hlt_ciuo b on a.cod_ciuo=b.cod_ciuo where a.no_historia='@#suggestVar1001'","var_name":"textVar1008","colSpan":4},{"type":"text","variable":"textVar1009","var_uid":"4189350705ecd66b0076502092385173","dataType":"string","protectedValue":false,"id":"textVar1009","name":"textVar1009","label":"EPS","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.nombre from hlt_pacientes a left join hlt_empresa b on a.cod_empresa=b.cod_empresa where a.no_historia = '@#suggestVar1001'","var_name":"textVar1009","colSpan":4}],[{"type":"text","variable":"textVar1013","var_uid":"8661156045ecd66b00ef726074171339","dataType":"string","protectedValue":false,"id":"textVar1013","name":"textVar1013","label":"Estado Civil","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_estado_civil b on a.cod_estado_civil=b.cod_estado_civil where a.no_historia = '@#suggestVar1001'","var_name":"textVar1013","colSpan":4},{"type":"text","variable":"textVar1014","var_uid":"4098703795ecd66b017dbe0061374137","dataType":"string","protectedValue":false,"id":"textVar1014","name":"textVar1014","label":"Estrato","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_estrato b on a.cod_estrato=b.cod_estrato where a.no_historia = '@#suggestVar1001'","var_name":"textVar1014","colSpan":4},{"type":"text","variable":"textVar1015","var_uid":"9233757565ecd66b01fc353046036758","dataType":"string","protectedValue":false,"id":"textVar1015","name":"textVar1015","label":"Etnia","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_etnia b on a.cod_etnia=b.cod_etnia where a.no_historia = '@#suggestVar1001'","var_name":"textVar1015","colSpan":4}],[{"type":"text","variable":"textVar1016","var_uid":"6642163625ecd66b027d054023371856","dataType":"string","protectedValue":false,"id":"textVar1016","name":"textVar1016","label":"Nivel de Estudios","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_escolaridad b on a.cod_escolaridad=b.cod_escolaridad where a.no_historia = '@#suggestVar1001'","var_name":"textVar1016","colSpan":4},{"type":"text","variable":"textVar1017","var_uid":"4884105335ecd66b02f61f0080312645","dataType":"string","protectedValue":false,"id":"textVar1017","name":"textVar1017","label":"Discapacidad","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"select b.descripcion from hlt_pacientes a left join hlt_discapacidad b on a.cod_discapacidad=b.cod_discapacidad where a.no_historia = '@#suggestVar1001'","var_name":"textVar1017","colSpan":4},{"type":"text","variable":"textVar1012","var_uid":"2561460585ecd66b0372374040270838","dataType":"string","protectedValue":false,"id":"textVar1012","name":"textVar1012","label":"Régimen","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"1490673695ecd67f19aaf62013367487","dbConnectionLabel":"[localhost:5432] pgsql: dorada","sql":"SELECT CASE WHEN afiliacion= '1' THEN 'Contributivo' WHEN afiliacion= '2' THEN 'Subsidiado' ELSE 'Particular' END from hlt_pacientes where no_historia = '@#suggestVar1001'\n\n","var_name":"textVar1012","colSpan":4}]],"variables":[{"var_uid":"6078187285ecd66afb0ad20023814683","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"suggestVar1001","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4051417615e6a7bb3ef90f0033206973","var_name_old":"suggestVar1001","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"9165974675ecd66afb7dce7043346001","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1020","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1831133775e6a7bb3d90d63051031816","var_name_old":"textVar1020","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4748322455ecd66afbf18c6047758641","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1010","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7324862895e6a7bb3d3f850083687446","var_name_old":"textVar1010","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"3355016285ecd66afc6b1c5051811088","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1003","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1452733495e6a7bb3d23e01068290312","var_name_old":"textVar1003","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8363071745ecd66afce3228056228598","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1011","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"3633991095e6a7bb3eb49a0066179348","var_name_old":"textVar1011","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2367395195ecd66afd57e81010190660","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1004","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4350014745e6a7bb3e05466097286143","var_name_old":"textVar1004","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"1001197905ecd66afdcda79015944288","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1005","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8625585715e6a7bb4058318067226031","var_name_old":"textVar1005","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"6817362965ecd66afe44849040164973","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1006","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7396694435e6a7bb40c9ed6020486508","var_name_old":"textVar1006","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"5274408725ecd66afec1283088617538","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1007","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4741425975e6a7bb42537c4041011153","var_name_old":"textVar1007","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"5588449385ecd66aff38779065810168","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1008","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8459728945e6a7bb415c867027456745","var_name_old":"textVar1008","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4189350705ecd66b0076502092385173","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1009","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8606272645e6a7bb411b4d6029205556","var_name_old":"textVar1009","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"8661156045ecd66b00ef726074171339","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1013","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1877990415e6a7bb4312fc4081833295","var_name_old":"textVar1013","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4098703795ecd66b017dbe0061374137","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1014","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6654082325e6a7bb4292ed1059699596","var_name_old":"textVar1014","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"9233757565ecd66b01fc353046036758","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1015","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6654798445e6a7bb422ad09038970579","var_name_old":"textVar1015","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"6642163625ecd66b027d054023371856","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1016","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6987381865e6a7bb4211bb1032335354","var_name_old":"textVar1016","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"4884105335ecd66b02f61f0080312645","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1017","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7307572515e6a7bb3e17462052847128","var_name_old":"textVar1017","prj_uid_old":"3196788185e5db675cac2c1081861327"},{"var_uid":"2561460585ecd66b0372374040270838","prj_uid":"2788125195ecd665d2fcee6035031424","var_name":"textVar1012","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2943669175e6a7bb3d1a3c8094683104","var_name_old":"textVar1012","prj_uid_old":"3196788185e5db675cac2c1081861327"}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2020-05-26 19:06:13]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>1496738465ecd6b09346d75036514570</step_uid>
+        <pro_uid>2788125195ecd665d2fcee6035031424</pro_uid>
+        <tas_uid>5662773175ecd6b01cf4e15098660139</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>1145162035ecd6676004a84007682601</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>5776355245ecd6c92a37a62002642542</step_uid>
+        <pro_uid>2788125195ecd665d2fcee6035031424</pro_uid>
+        <tas_uid>5662773175ecd6b01cf4e15098660139</tas_uid>
+        <step_type_obj>OUTPUT_DOCUMENT</step_type_obj>
+        <step_uid_obj>2669014725ecd6c70b42b14090118014</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>2</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>1221400115ecd76f357ff46070873521</tri_uid>
+        <tri_title>guardar firma paciente</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>2788125195ecd665d2fcee6035031424</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$caseId    = @@APPLICATION;
+$no_historia = @@suggestVar1001;
+$ruta = "mv /var/www/html/dorada/shared/sites/dorada/files/";
+
+$ruta .= substr($caseId,0,3)."/";
+$ruta .= substr($caseId,3,3)."/";
+$ruta .= substr($caseId,6,3)."/";
+$ruta .= substr($caseId,9)."/";
+
+if (isset(@=multipleFileVar6003) and !empty(@=multipleFileVar6003)) {
+   @@dir_firma = $ruta .= @=multipleFileVar6003[0]['appDocUid']. "_1.png /var/www/html/dorada/workflow/public_html/firmas_pacientes/".$no_historia.".png";
+}
+
+@@resultado_firma = shell_exec($ruta);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>2992317175ecd6afb8af478072327522</tri_uid>
+        <tri_title>letras</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>2788125195ecd665d2fcee6035031424</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[class EnLetras 
+{ 
+  var $Void = ""; 
+  var $SP = " "; 
+  var $Dot = "."; 
+  var $Zero = "0"; 
+  var $Neg = "Menos"; 
+   
+function ValorEnLetras($x, $Moneda )  
+{ 
+    $s=""; 
+    $Ent=""; 
+    $Frc=""; 
+    $Signo=""; 
+         
+    if(floatVal($x) < 0) 
+     $Signo = $this->Neg . " "; 
+    else 
+     $Signo = ""; 
+     
+    if(intval(number_format($x,2,'.','') )!=$x) //<- averiguar si tiene decimales 
+      $s = number_format($x,2,'.',''); 
+    else 
+      $s = number_format($x,2,'.',''); 
+        
+    $Pto = strpos($s, $this->Dot); 
+         
+    if ($Pto === false) 
+    { 
+      $Ent = $s; 
+      $Frc = $this->Void; 
+    } 
+    else 
+    { 
+      $Ent = substr($s, 0, $Pto ); 
+      $Frc =  substr($s, $Pto+1); 
+    } 
+
+    if($Ent == $this->Zero || $Ent == $this->Void) 
+       $s = "Cero "; 
+    elseif( strlen($Ent) > 7) 
+    { 
+       $s = $this->SubValLetra(intval( substr($Ent, 0,  strlen($Ent) - 6))) .  
+             "Millones " . $this->SubValLetra(intval(substr($Ent,-6, 6))); 
+    } 
+    else 
+    { 
+      $s = $this->SubValLetra(intval($Ent)); 
+    } 
+
+    if (substr($s,-9, 9) == "Millones " || substr($s,-7, 7) == "Millón ") 
+       $s = $s . "de "; 
+
+    $s = $s . $Moneda; 
+
+    if($Frc != $this->Void) 
+    { 
+       $s = $s . " " ; 
+       //$s = $s . " " . $Frc . "/100"; 
+    } 
+    $letrass=$Signo . $s ; 
+    return ($Signo . $s ); 
+    
+} 
+
+
+function SubValLetra($numero)  
+{ 
+    $Ptr=""; 
+    $n=0; 
+    $i=0; 
+    $x =""; 
+    $Rtn =""; 
+    $Tem =""; 
+
+    $x = trim("$numero"); 
+    $n = strlen($x); 
+
+    $Tem = $this->Void; 
+    $i = $n; 
+     
+    while( $i > 0) 
+    { 
+       $Tem = $this->Parte(intval(substr($x, $n - $i, 1).  
+                           str_repeat($this->Zero, $i - 1 ))); 
+       If( $Tem != "Cero" ) 
+          $Rtn .= $Tem . $this->SP; 
+       $i = $i - 1; 
+    } 
+
+     
+    //--------------------- GoSub FiltroMil ------------------------------ 
+    $Rtn=str_replace(" Mil Mil", " Un Mil", $Rtn ); 
+    while(1) 
+    { 
+       $Ptr = strpos($Rtn, "Mil ");        
+       If(!($Ptr===false)) 
+       { 
+          If(! (strpos($Rtn, "Mil ",$Ptr + 1) === false )) 
+            $this->ReplaceStringFrom($Rtn, "Mil ", "", $Ptr); 
+          Else 
+           break; 
+       } 
+       else break; 
+    } 
+
+    //--------------------- GoSub FiltroCiento ------------------------------ 
+    $Ptr = -1; 
+    do{ 
+       $Ptr = strpos($Rtn, "Cien ", $Ptr+1); 
+       if(!($Ptr===false)) 
+       { 
+          $Tem = substr($Rtn, $Ptr + 5 ,1); 
+          if( $Tem == "M" || $Tem == $this->Void) 
+             ; 
+          else           
+             $this->ReplaceStringFrom($Rtn, "Cien", "Ciento", $Ptr); 
+       } 
+    }while(!($Ptr === false)); 
+
+    //--------------------- FiltroEspeciales ------------------------------ 
+    $Rtn=str_replace("Diez Un", "Once", $Rtn ); 
+    $Rtn=str_replace("Diez Dos", "Doce", $Rtn ); 
+    $Rtn=str_replace("Diez Tres", "Trece", $Rtn ); 
+    $Rtn=str_replace("Diez Cuatro", "Catorce", $Rtn ); 
+    $Rtn=str_replace("Diez Cinco", "Quince", $Rtn ); 
+    $Rtn=str_replace("Diez Seis", "Dieciseis", $Rtn ); 
+    $Rtn=str_replace("Diez Siete", "Diecisiete", $Rtn ); 
+    $Rtn=str_replace("Diez Ocho", "Dieciocho", $Rtn ); 
+    $Rtn=str_replace("Diez Nueve", "Diecinueve", $Rtn ); 
+    $Rtn=str_replace("Veinte Un", "Veintiun", $Rtn ); 
+    $Rtn=str_replace("Veinte Dos", "Veintidos", $Rtn ); 
+    $Rtn=str_replace("Veinte Tres", "Veintitres", $Rtn ); 
+    $Rtn=str_replace("Veinte Cuatro", "Veinticuatro", $Rtn ); 
+    $Rtn=str_replace("Veinte Cinco", "Veinticinco", $Rtn ); 
+    $Rtn=str_replace("Veinte Seis", "Veintiseís", $Rtn ); 
+    $Rtn=str_replace("Veinte Siete", "Veintisiete", $Rtn ); 
+    $Rtn=str_replace("Veinte Ocho", "Veintiocho", $Rtn ); 
+    $Rtn=str_replace("Veinte Nueve", "Veintinueve", $Rtn ); 
+
+    //--------------------- FiltroUn ------------------------------ 
+    If(substr($Rtn,0,1) == "M") $Rtn = "Un " . $Rtn; 
+    //--------------------- Adicionar Y ------------------------------ 
+    for($i=65; $i<=88; $i++) 
+    { 
+      If($i != 77) 
+         $Rtn=str_replace("a " . Chr($i), "* y " . Chr($i), $Rtn); 
+    } 
+    $Rtn=str_replace("*", "a" , $Rtn); 
+    return($Rtn); 
+} 
+
+
+function ReplaceStringFrom(&$x, $OldWrd, $NewWrd, $Ptr) 
+{ 
+  $x = substr($x, 0, $Ptr)  . $NewWrd . substr($x, strlen($OldWrd) + $Ptr); 
+} 
+
+
+function Parte($x) 
+{ 
+    $Rtn=''; 
+    $t=''; 
+    $i=''; 
+    Do 
+    { 
+      switch($x) 
+      { 
+         Case 0:  $t = "Cero";break; 
+         Case 1:  $t = "Un";break; 
+         Case 2:  $t = "Dos";break; 
+         Case 3:  $t = "Tres";break; 
+         Case 4:  $t = "Cuatro";break; 
+         Case 5:  $t = "Cinco";break; 
+         Case 6:  $t = "Seis";break; 
+         Case 7:  $t = "Siete";break; 
+         Case 8:  $t = "Ocho";break; 
+         Case 9:  $t = "Nueve";break; 
+         Case 10: $t = "Diez";break; 
+         Case 20: $t = "Veinte";break; 
+         Case 30: $t = "Treinta";break; 
+         Case 40: $t = "Cuarenta";break; 
+         Case 50: $t = "Cincuenta";break; 
+         Case 60: $t = "Sesenta";break; 
+         Case 70: $t = "Setenta";break; 
+         Case 80: $t = "Ochenta";break; 
+         Case 90: $t = "Noventa";break; 
+         Case 100: $t = "Cien";break; 
+         Case 200: $t = "Doscientos";break; 
+         Case 300: $t = "Trescientos";break; 
+         Case 400: $t = "Cuatrocientos";break; 
+         Case 500: $t = "Quinientos";break; 
+         Case 600: $t = "Seiscientos";break; 
+         Case 700: $t = "Setecientos";break; 
+         Case 800: $t = "Ochocientos";break; 
+         Case 900: $t = "Novecientos";break; 
+         Case 1000: $t = "Mil";break; 
+         Case 1000000: $t = "Millón";break; 
+      } 
+
+      If($t == $this->Void) 
+      { 
+        $i = $i + 1; 
+        $x = $x / 1000; 
+        If($x== 0) $i = 0; 
+      } 
+      else 
+         break; 
+            
+    }while($i != 0); 
+    
+    $Rtn = $t; 
+    Switch($i) 
+    { 
+       Case 0: $t = $this->Void;break; 
+       Case 1: $t = " Mil";break; 
+       Case 2: $t = " Millones";break; 
+       Case 3: $t = " Billones";break; 
+    } 
+    return($Rtn . $t); 
+} 
+
+
+
+} 
+
+ $total=(int)@@TXT_TOTAL;
+ $v=new EnLetras(); 
+ $con_letra=strtoupper($v->ValorEnLetras($total,"Pesos M/Cte."));
+ @@TXT_LETRAS =  $con_letra;]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>3450565545ecd6bd3181553024666393</tri_uid>
+        <tri_title>facturar_pos</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>2788125195ecd665d2fcee6035031424</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[@@FECHA_FACTURA = date("Y-m-d H:i:s", strtotime("-5 hours"));
+@@NO_FACTURA_FINAL = "00000000365";]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>4519802275ece7b5fc70e27028241212</tri_uid>
+        <tri_title>tgg_cargar_imagenes</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>2788125195ecd665d2fcee6035031424</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$usr_uid = @@@@suggestVar1001;
+@@firma = "<img src=\""."http://health.ipsdorada.com/firmas_pacientes/".$usr_uid.".png\" alt=\"Firma\" height=\"50\" width=\"100\">";
+@@sello = "<img src=\""."http://health.ipsdorada.com/firmas_pacientes/".$usr_uid.".png\" alt=\"Sello\" height=\"50\" width=\"100\">";]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>9080927065ecd6aece6d8f7002112280</tri_uid>
+        <tri_title>facturar_pre</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>2788125195ecd665d2fcee6035031424</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[@@textVar600133 = "MEDICINA GENERAL";
+
+
+$cuota = "0.00";
+@@textVar600134 = $cuota;
+@@hiddenVar80003 = "Total Paciente : $ 0.00";
+@@hiddenVar80004 = "Total E.P.S. : $ 35.600.00";
+@@hiddenVar80007 = "Total a Facturar : $ 35.600.00";
+@@TXT_TOTAL = "35600";]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+    </table>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers">
+      <record>
+        <step_uid>1496738465ecd6b09346d75036514570</step_uid>
+        <tas_uid>5662773175ecd6b01cf4e15098660139</tas_uid>
+        <tri_uid>1221400115ecd76f357ff46070873521</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>1496738465ecd6b09346d75036514570</step_uid>
+        <tas_uid>5662773175ecd6b01cf4e15098660139</tas_uid>
+        <tri_uid>2992317175ecd6afb8af478072327522</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>2</st_position>
+      </record>
+      <record>
+        <step_uid>1496738465ecd6b09346d75036514570</step_uid>
+        <tas_uid>5662773175ecd6b01cf4e15098660139</tas_uid>
+        <tri_uid>3450565545ecd6bd3181553024666393</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>2</st_position>
+      </record>
+      <record>
+        <step_uid>1496738465ecd6b09346d75036514570</step_uid>
+        <tas_uid>5662773175ecd6b01cf4e15098660139</tas_uid>
+        <tri_uid>9080927065ecd6aece6d8f7002112280</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>5776355245ecd6c92a37a62002642542</step_uid>
+        <tas_uid>5662773175ecd6b01cf4e15098660139</tas_uid>
+        <tri_uid>4519802275ece7b5fc70e27028241212</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections">
+      <record>
+        <dbs_uid>1490673695ecd67f19aaf62013367487</dbs_uid>
+        <pro_uid>2788125195ecd665d2fcee6035031424</pro_uid>
+        <dbs_type>pgsql</dbs_type>
+        <dbs_server>localhost</dbs_server>
+        <dbs_database_name>dorada</dbs_database_name>
+        <dbs_username>postgres</dbs_username>
+        <dbs_password>xMXh08vTkpai_2NnV3ujj3w</dbs_password>
+        <dbs_port>5432</dbs_port>
+        <dbs_encode>UTF8</dbs_encode>
+        <dbs_connection_type>NORMAL</dbs_connection_type>
+        <dbs_tns></dbs_tns>
+        <dbs_description></dbs_description>
+      </record>
+    </table>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory"/>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>1001197905ecd66afdcda79015944288</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1005</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>1967108695ecd667d9b8297007537728</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>hiddenVar80007</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2367395195ecd66afd57e81010190660</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1004</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2561460585ecd66b0372374040270838</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1012</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2665749015ecd66b03f5117062881965</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>hiddenVar80002</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3087633825ecd667d794a91034916963</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar600133</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3355016285ecd66afc6b1c5051811088</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1003</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4098703795ecd66b017dbe0061374137</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1014</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4189350705ecd66b0076502092385173</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1009</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4227267275ecd667d843504009611528</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar600134</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4748322455ecd66afbf18c6047758641</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1010</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4884105335ecd66b02f61f0080312645</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1017</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5274408725ecd66afec1283088617538</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1007</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5350755165ecd66b0478924072238250</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>hiddenVar80006</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5588449385ecd66aff38779065810168</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1008</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6078187285ecd66afb0ad20023814683</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>suggestVar1001</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6642163625ecd66b027d054023371856</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1016</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6817362965ecd66afe44849040164973</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1006</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7927730285ecd667d8c0104064442344</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>hiddenVar80003</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8363071745ecd66afce3228056228598</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1011</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8661156045ecd66b00ef726074171339</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1013</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8738039475ecd667dab4371075823675</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>multipleFileVar6003</var_name>
+        <var_field_type>multiplefile</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>multiplefile</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9165974675ecd66afb7dce7043346001</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1020</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9233757565ecd66b01fc353046036758</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>textVar1015</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9500427425ecd667da2f923080627735</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>hiddenVar80008</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9603459645ecd667d93d1d9037641399</var_uid>
+        <prj_uid>2788125195ecd665d2fcee6035031424</prj_uid>
+        <var_name>hiddenVar80004</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>facturacion</file_name>
+      <file_path><![CDATA[2788125195ecd665d2fcee6035031424/1145162035ecd6676004a84007682601.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjI3ODgxMjUxOTVlY2Q2NjVkMmZjZWU2MDM1MDMxNDI0LzExNDUxNjIwMzVlY2Q2Njc2MDA0YTg0MDA3NjgyNjAxIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>informacion paciente</file_name>
+      <file_path><![CDATA[2788125195ecd665d2fcee6035031424/9412667295ecd66a693fc71077590448.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjI3ODgxMjUxOTVlY2Q2NjVkMmZjZWU2MDM1MDMxNDI0Lzk0MTI2NjcyOTVlY2Q2NmE2OTNmYzcxMDc3NTkwNDQ4IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>
